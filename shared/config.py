@@ -1,5 +1,6 @@
 """
-All scrape/tag/query settings live here. Secrets live in .env only (project root).
+All scrape/tag/query settings live here. Secrets live in .env locally,
+or Streamlit Cloud Secrets when deployed.
 
 Edit counts / toggles / queries / LLM provider here.
 """
@@ -15,7 +16,18 @@ load_dotenv(BASE_DIR / ".env")
 
 
 def _env(name: str) -> str:
-    return (os.getenv(name) or "").strip()
+    val = (os.getenv(name) or "").strip()
+    if val:
+        return val
+    try:
+        import streamlit as st
+
+        secret = st.secrets.get(name)
+        if secret is not None:
+            return str(secret).strip()
+    except Exception:
+        pass
+    return ""
 
 
 # ---------------------------------------------------------------------------

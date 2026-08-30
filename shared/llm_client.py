@@ -38,9 +38,11 @@ def call_huggingface(
     max_tokens: int | None = None,
     force_json: bool = False,
 ) -> str:
-    key = config.LLM["huggingface_api_key"]
+    key = config._env("HUGGINGFACE_API_KEY")
     if not key:
-        raise RuntimeError("HUGGINGFACE_API_KEY missing in .env")
+        raise RuntimeError(
+            "HUGGINGFACE_API_KEY missing. Add it in Streamlit Cloud → Settings → Secrets, or in local .env"
+        )
 
     payload = {
         "model": model_name(),
@@ -66,10 +68,10 @@ def call_groq(
     max_tokens: int | None = None,
     force_json: bool = False,
 ) -> str:
-    key = config.LLM["groq_api_key"]
+    key = config._env("GROQ_API_KEY")
     if not key:
         raise RuntimeError(
-            "GROQ_API_KEY missing in .env. Get one at https://console.groq.com/keys"
+            "GROQ_API_KEY missing. Add it in Streamlit Cloud → Settings → Secrets, or in local .env"
         )
 
     payload = {
@@ -97,9 +99,11 @@ def call_gemini(
     max_tokens: int | None = None,
     force_json: bool = False,
 ) -> str:
-    key = config.LLM["gemini_api_key"]
+    key = config._env("GEMINI_API_KEY")
     if not key:
-        raise RuntimeError("GEMINI_API_KEY missing in .env")
+        raise RuntimeError(
+            "GEMINI_API_KEY missing. Add it in Streamlit Cloud → Settings → Secrets, or in local .env"
+        )
 
     parts = [f"{m['role'].upper()}: {m['content']}" for m in messages]
     prompt = "\n\n".join(parts)
