@@ -1,0 +1,18 @@
+# Virtual env
+pm-env/
+.env
+cloudflared.exe
+tools/cloudflared.exe
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.xlsx
+~$*

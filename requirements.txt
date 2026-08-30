@@ -1,0 +1,7 @@
+google-play-scraper>=1.2.7
+google-api-python-client>=2.140.0
+fpdf2>=2.7.9
+pandas>=2.2.0
+python-dotenv>=1.0.1
+requests>=2.32.0
+streamlit>=1.37.0

@@ -1,0 +1,118 @@
+{
+  "total_reviews": 424,
+  "source_corpus": "gold",
+  "tag_schema_version": 2,
+  "top_reasons_for_wishlisting": [
+    {
+      "label": "liked_look",
+      "count": 58,
+      "pct_of_mentions": 47.5
+    },
+    {
+      "label": "compare_later",
+      "count": 40,
+      "pct_of_mentions": 32.8
+    },
+    {
+      "label": "occasion_save",
+      "count": 10,
+      "pct_of_mentions": 8.2
+    },
+    {
+      "label": "style_confirmation",
+      "count": 9,
+      "pct_of_mentions": 7.4
+    },
+    {
+      "label": "just_browsing",
+      "count": 2,
+      "pct_of_mentions": 1.6
+    }
+  ],
+  "top_purchase_blockers": [
+    {
+      "label": "quality_doubt",
+      "count": 152,
+      "pct_of_mentions": 44.7
+    },
+    {
+      "label": "price_change",
+      "count": 81,
+      "pct_of_mentions": 23.8
+    },
+    {
+      "label": "fit_uncertainty",
+      "count": 69,
+      "pct_of_mentions": 20.3
+    },
+    {
+      "label": "found_alternative",
+      "count": 27,
+      "pct_of_mentions": 7.9
+    },
+    {
+      "label": "no_urgency",
+      "count": 7,
+      "pct_of_mentions": 2.1
+    }
+  ],
+  "top_info_sought_outside_app": [
+    {
+      "label": "other_apps",
+      "count": 28,
+      "pct_of_mentions": 60.9
+    },
+    {
+      "label": "youtube",
+      "count": 8,
+      "pct_of_mentions": 17.4
+    },
+    {
+      "label": "friend_family",
+      "count": 5,
+      "pct_of_mentions": 10.9
+    },
+    {
+      "label": "google",
+      "count": 4,
+      "pct_of_mentions": 8.7
+    },
+    {
+      "label": "instagram",
+      "count": 1,
+      "pct_of_mentions": 2.2
+    }
+  ],
+  "pct_comparison_behavior": 7.5,
+  "pct_external_research": 10.8,
+  "counts": {
+    "reason_mentions": 122,
+    "blocker_mentions": 340,
+    "comparison_true": 32,
+    "external_research": 46
+  },
+  "headline": "Quality Doubt appears in 44.7% of purchase-blocker mentions, more than price change (23.8%) or fit uncertainty (20.3%) - making it the single largest addressable blocker in this corpus.",
+  "survey_overlay": {
+    "n": 10,
+    "pct_external_research": 100.0,
+    "corpus_pct_external_research": 10.8,
+    "caption": "Public reviews mention leaving the app in 10.8%; survey respondents (n=10) almost all did. These are two evidence layers, not one combined rate."
+  },
+  "by_source": {
+    "play_store": {
+      "total": 154,
+      "fully_null": 12,
+      "fully_null_pct": 7.8
+    },
+    "app_store": {
+      "total": 58,
+      "fully_null": 9,
+      "fully_null_pct": 15.5
+    },
+    "youtube": {
+      "total": 212,
+      "fully_null": 9,
+      "fully_null_pct": 4.2
+    }
+  }
+}

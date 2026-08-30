@@ -1,0 +1,16 @@
+category,label,count,pct_of_mentions
+purchase_blocker,quality_doubt,152,44.7
+purchase_blocker,price_change,81,23.8
+purchase_blocker,fit_uncertainty,69,20.3
+purchase_blocker,found_alternative,27,7.9
+purchase_blocker,no_urgency,7,2.1
+reason_for_wishlisting,liked_look,58,47.5
+reason_for_wishlisting,compare_later,40,32.8
+reason_for_wishlisting,occasion_save,10,8.2
+reason_for_wishlisting,style_confirmation,9,7.4
+reason_for_wishlisting,just_browsing,2,1.6
+info_sought_outside_app,other_apps,28,60.9
+info_sought_outside_app,youtube,8,17.4
+info_sought_outside_app,friend_family,5,10.9
+info_sought_outside_app,google,4,8.7
+info_sought_outside_app,instagram,1,2.2
