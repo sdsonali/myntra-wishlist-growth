@@ -1,754 +1,786 @@
-file: C:\Users\itch\Downloads\Wishlist_Confidence_Gap_Deck.pptx
+file: C:\Users\itch\Desktop\myntra-wishlist-growth\Myntra_Wishlist_Confidence_Gap_SUBMISSION.pptx
 slides: 10  size: 13.33x7.50 in
 
 ===== SLIDE 1 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
-        fill=07293E
-  [3] Shape 1 AUTO_SHAPE (1) L=9.60 T=3.60 W=5.20 H=5.20
-        fill=0B3D5C
-  [4] Shape 2 AUTO_SHAPE (1) L=10.60 T=4.60 W=3.20 H=3.20
-        fill=E8A33D
-  [5] Text 3 AUTO_SHAPE (1) L=0.70 T=2.00 W=9.00 H=0.35
-        T: PRODUCT STRATEGY — MYNTRA GROWTH
-           (12.0pt B E8A33D)
-  [6] Text 4 AUTO_SHAPE (1) L=0.70 T=2.40 W=10.50 H=1.60
-        T: Closing the Wishlist Confidence Gap
-           (40.0pt B FFFFFF)
-  [7] Text 5 AUTO_SHAPE (1) L=0.70 T=3.85 W=8.80 H=0.80
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=1E3A5F
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=6.55 W=13.33 H=0.95
+        fill=C46B2F
+  [4] TextBox 3 TEXT_BOX (17) L=0.55 T=0.55 W=12.20 H=0.35
+        T: PRODUCT STRATEGY  —  MYNTRA GROWTH
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.55 T=1.05 W=12.20 H=1.15
+        T: CLOSING THE WISHLIST CONFIDENCE GAP
+           (14.0pt B FFFFFF)
+  [6] TextBox 5 TEXT_BOX (17) L=0.55 T=2.25 W=12.00 H=0.85
         T: Improving Myntra's wishlist-to-purchase conversion by resolving in-app decision doubt — without discounts, coupons, or cashback.
-           (15.0pt  C7D6E0)
-  [8] Shape 6 AUTO_SHAPE (1) L=0.70 T=5.05 W=3.55 H=1.20
-        fill=0B3D5C
-  [9] Text 7 AUTO_SHAPE (1) L=0.90 T=5.18 W=3.15 H=0.30
+           (14.0pt  FFFFFF)
+  [7] Rounded Rectangle 6 AUTO_SHAPE (1) L=0.55 T=3.25 W=12.20 H=0.85
+        fill=162E4C
+  [8] TextBox 7 TEXT_BOX (17) L=0.70 T=3.35 W=11.90 H=0.70
+        T: For 24–30 shoppers with at least one unsold saved item, resolve fit / quality / compare doubt on the wishlist — so WPCR moves without discounts.
+           (14.0pt  FFFFFF)
+  [9] Rounded Rectangle 8 AUTO_SHAPE (1) L=0.55 T=4.30 W=3.90 H=1.85
+        fill=FFFFFF
+  [10] TextBox 9 TEXT_BOX (17) L=0.70 T=4.42 W=3.60 H=0.35
         T: FOCUS
-           (10.0pt B E8A33D)
-  [10] Text 8 AUTO_SHAPE (1) L=0.90 T=5.48 W=3.15 H=0.70
-        T: Ethnic / occasion / fashion-forward wishlist items
-           (12.5pt  FFFFFF)
-  [11] Shape 9 AUTO_SHAPE (1) L=4.45 T=5.05 W=3.55 H=1.20
-        fill=0B3D5C
-  [12] Text 10 AUTO_SHAPE (1) L=4.65 T=5.18 W=3.15 H=0.30
+           (14.0pt B C46B2F)
+  [11] TextBox 10 TEXT_BOX (17) L=0.70 T=4.78 W=3.60 H=1.15
+        T: Ethnic / occasion / fashion-forward saved items
+           (14.0pt B 1E3A5F)
+  [12] Rounded Rectangle 11 AUTO_SHAPE (1) L=4.65 T=4.30 W=3.90 H=1.85
+        fill=FFFFFF
+  [13] TextBox 12 TEXT_BOX (17) L=4.80 T=4.42 W=3.60 H=0.35
         T: LEVER
-           (10.0pt B E8A33D)
-  [13] Text 11 AUTO_SHAPE (1) L=4.65 T=5.48 W=3.15 H=0.70
-        T: In-app decision confidence, not price
-           (12.5pt  FFFFFF)
-  [14] Shape 12 AUTO_SHAPE (1) L=8.20 T=5.05 W=3.55 H=1.20
-        fill=0B3D5C
-  [15] Text 13 AUTO_SHAPE (1) L=8.40 T=5.18 W=3.15 H=0.30
+           (14.0pt B C46B2F)
+  [14] TextBox 13 TEXT_BOX (17) L=4.80 T=4.78 W=3.60 H=1.15
+        T: In-app decision confidence — not price
+           (14.0pt B 1E3A5F)
+  [15] Rounded Rectangle 14 AUTO_SHAPE (1) L=8.75 T=4.30 W=3.90 H=1.85
+        fill=FFFFFF
+  [16] TextBox 15 TEXT_BOX (17) L=8.90 T=4.42 W=3.60 H=0.35
         T: CONSTRAINT
-           (10.0pt B E8A33D)
-  [16] Text 14 AUTO_SHAPE (1) L=8.40 T=5.48 W=3.15 H=0.70
-        T: No monetary incentives
-           (12.5pt  FFFFFF)
-  [17] Text 15 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
-        T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [18] Text 16 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
-        T: 1
-           (10.0pt  5C6B73)
+           (14.0pt B C46B2F)
+  [17] TextBox 16 TEXT_BOX (17) L=8.90 T=4.78 W=3.60 H=1.15
+        T: No monetary incentives of any kind
+           (14.0pt B 1E3A5F)
+  [18] TextBox 17 TEXT_BOX (17) L=0.55 T=6.62 W=12.20 H=0.75
+        T: Resources  ·  Live app (Discovery + MVP)   ·   Interview form
+           (14.0pt B FFFFFF | 14.0pt B 1F4E79 | 14.0pt  FFFFFF | 14.0pt B 1F4E79)
 
 ===== SLIDE 2 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: THE BUSINESS METRIC, BROKEN DOWN
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: Saved demand dies at decision confidence, not at re-engagement
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.96 W=12.70 H=0.32
+        T: NORTH STAR — WPCR: share of users who purchase ≥1 wishlisted item within 30 days of adding it.
+           (14.0pt  4A555C)
+  [8] Rounded Rectangle 7 AUTO_SHAPE (1) L=0.32 T=1.32 W=2.42 H=0.78
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: BUSINESS METRIC
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: WPCR is stuck at decision confidence, not at “they never open the app”
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=1.55 W=12.30 H=0.40
-        T: North Star — WPCR: % of users who purchase ≥ 1 wishlisted item within 30 days of adding it.
-           (14.0pt B 07293E | 14.0pt  1A1A1A)
-  [6] Shape 4 AUTO_SHAPE (1) L=0.50 T=2.20 W=2.75 H=1.65
-        fill=F4F7F9
-  [7] Text 5 AUTO_SHAPE (1) L=0.65 T=2.30 W=0.40 H=0.30
-        T: 1
-           (13.0pt B 5C6B73)
-  [8] Text 6 AUTO_SHAPE (1) L=0.65 T=2.58 W=2.45 H=0.50
-        T: Re-engagement
-           (14.0pt B 07293E)
-  [9] Text 7 AUTO_SHAPE (1) L=0.65 T=3.05 W=2.45 H=0.55
-        T: % of wishlisted items
-           (10.5pt  5C6B73)
-        T: revisited in 30 days
-           (10.5pt  5C6B73)
-  [10] Text 8 AUTO_SHAPE (1) L=3.27 T=2.83 W=0.24 H=0.40
+  [9] TextBox 8 TEXT_BOX (17) L=0.32 T=1.32 W=2.42 H=0.50
+        T: Add to wishlist
+           (14.0pt B 1E3A5F)
+  [10] TextBox 9 TEXT_BOX (17) L=2.60 T=1.48 W=0.28 H=0.32
         T: →
-           (16.0pt  5C6B73)
-  [11] Shape 9 AUTO_SHAPE (1) L=3.53 T=2.20 W=2.75 H=1.65
-        fill=E8A33D
-  [12] Text 10 AUTO_SHAPE (1) L=3.68 T=2.30 W=0.40 H=0.30
-        T: 2
-           (13.0pt B 07293E)
-  [13] Text 11 AUTO_SHAPE (1) L=3.68 T=2.58 W=2.45 H=0.50
-        T: Decision Confidence
-           (14.0pt B 07293E)
-  [14] Text 12 AUTO_SHAPE (1) L=3.68 T=3.05 W=2.45 H=0.55
-        T: % of revisited items
-           (10.5pt  07293E)
-        T: where doubt is resolved
-           (10.5pt  07293E)
-  [15] Text 13 AUTO_SHAPE (1) L=6.30 T=2.83 W=0.24 H=0.40
+           (14.0pt B C46B2F)
+  [11] Rounded Rectangle 10 AUTO_SHAPE (1) L=2.90 T=1.32 W=2.42 H=0.78
+        fill=FFFFFF
+  [12] TextBox 11 TEXT_BOX (17) L=2.90 T=1.32 W=2.42 H=0.50
+        T: Reconsideration trigger
+           (14.0pt B 1E3A5F)
+  [13] TextBox 12 TEXT_BOX (17) L=5.18 T=1.48 W=0.28 H=0.32
         T: →
-           (16.0pt  5C6B73)
-  [16] Shape 14 AUTO_SHAPE (1) L=6.56 T=2.20 W=2.75 H=1.65
-        fill=F4F7F9
-  [17] Text 15 AUTO_SHAPE (1) L=6.71 T=2.30 W=0.40 H=0.30
-        T: 3
-           (13.0pt B 5C6B73)
-  [18] Text 16 AUTO_SHAPE (1) L=6.71 T=2.58 W=2.45 H=0.50
-        T: Cart Conversion
-           (14.0pt B 07293E)
-  [19] Text 17 AUTO_SHAPE (1) L=6.71 T=3.05 W=2.45 H=0.55
-        T: % of resolved items
-           (10.5pt  5C6B73)
-        T: added to cart
-           (10.5pt  5C6B73)
-  [20] Text 18 AUTO_SHAPE (1) L=9.33 T=2.83 W=0.24 H=0.40
+           (14.0pt B C46B2F)
+  [14] Rounded Rectangle 13 AUTO_SHAPE (1) L=5.48 T=1.32 W=2.42 H=0.78
+        fill=C46B2F
+  [15] TextBox 14 TEXT_BOX (17) L=5.48 T=1.32 W=2.42 H=0.50
+        T: Confidence resolution
+           (14.0pt B FFFFFF)
+  [16] TextBox 15 TEXT_BOX (17) L=5.48 T=1.72 W=2.42 H=0.32
+        T: TARGET STAGE
+           (14.0pt B FFFFFF)
+  [17] TextBox 16 TEXT_BOX (17) L=7.76 T=1.48 W=0.28 H=0.32
         T: →
-           (16.0pt  5C6B73)
-  [21] Shape 19 AUTO_SHAPE (1) L=9.59 T=2.20 W=2.75 H=1.65
-        fill=F4F7F9
-  [22] Text 20 AUTO_SHAPE (1) L=9.74 T=2.30 W=0.40 H=0.30
-        T: 4
-           (13.0pt B 5C6B73)
-  [23] Text 21 AUTO_SHAPE (1) L=9.74 T=2.58 W=2.45 H=0.50
+           (14.0pt B C46B2F)
+  [18] Rounded Rectangle 17 AUTO_SHAPE (1) L=8.06 T=1.32 W=2.42 H=0.78
+        fill=FFFFFF
+  [19] TextBox 18 TEXT_BOX (17) L=8.06 T=1.32 W=2.42 H=0.50
+        T: Decision
+           (14.0pt B 1E3A5F)
+  [20] TextBox 19 TEXT_BOX (17) L=10.34 T=1.48 W=0.28 H=0.32
+        T: →
+           (14.0pt B C46B2F)
+  [21] Rounded Rectangle 20 AUTO_SHAPE (1) L=10.64 T=1.32 W=2.42 H=0.78
+        fill=FFFFFF
+  [22] TextBox 21 TEXT_BOX (17) L=10.64 T=1.32 W=2.42 H=0.50
         T: Checkout
-           (14.0pt B 07293E)
-  [24] Text 22 AUTO_SHAPE (1) L=9.74 T=3.05 W=2.45 H=0.55
-        T: % of cart items
-           (10.5pt  5C6B73)
-        T: purchased
-           (10.5pt  5C6B73)
-  [25] Shape 23 AUTO_SHAPE (1) L=3.53 T=3.97 W=2.75 H=0.62
-        fill=07293E
-  [26] Text 24 AUTO_SHAPE (1) L=3.53 T=3.97 W=2.75 H=0.62
-        T: PRIMARY PRODUCT OUTCOME
-           (11.0pt B E8A33D)
-  [27] Shape 25 AUTO_SHAPE (1) L=0.50 T=5.65 W=12.30 H=1.15
-        fill=F4F7F9
-  [28] Text 26 AUTO_SHAPE (1) L=0.75 T=5.83 W=11.80 H=0.80
-        T: In scope:  bookmarkers → intenders · ethnic > basics · confidence-blocked · once-a-month + 2–4×/month
-Out of scope:  rarely shoppers · price-only waiters (no monetary levers available)
-           (12.5pt B 07293E | 12.5pt  1A1A1A | 12.5pt B 07293E | 12.5pt  5C6B73)
-  [29] Text 27 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+           (14.0pt B 1E3A5F)
+  [23] TextBox 22 TEXT_BOX (17) L=0.32 T=2.18 W=12.70 H=0.32
+        T: Highest-potential areas from the discovery corpus, and how the MVP can move WPCR (mechanism only — no invented lift %).
+           (14.0pt B 1E3A5F)
+  [24] Table 23 TABLE (19) L=0.32 T=2.50 W=12.70 H=3.55
+        TABLE 6x3
+          | Opportunity (corpus) | MVP surface | How it can move WPCR
+          | Quality doubt 44.7%  IN | Still deciding — this SKU's reviews | Turns photo-vs-real freeze into a yes/no without leaving the app
+          | Fit 20.3%  IN | Size + Size up, then buy / Need more info | Cuts the “order two sizes and wait” delay
+          | Found alt 7.9% + leave-app 10.8%  IN | Compare 2–3 + in-app answer | Closes the loop on Myntra instead of another app
+          | Price 23.8%  OUT | Out of scope | No monetary lever in this brief
+          | No urgency 2.1%  IN (secondary) | Express 30-min demo | Optional urgency nudge; not the hero; not live logistics
+  [25] Rounded Rectangle 24 AUTO_SHAPE (1) L=0.32 T=6.15 W=6.20 H=0.95
+        fill=E6EEF4
+  [26] Rounded Rectangle 25 AUTO_SHAPE (1) L=6.72 T=6.15 W=6.30 H=0.95
+        fill=F6EBDC
+  [27] TextBox 26 TEXT_BOX (17) L=0.42 T=6.18 W=6.00 H=0.28
+        T: IN SCOPE
+           (14.0pt B 1E3A5F)
+  [28] TextBox 27 TEXT_BOX (17) L=0.42 T=6.44 W=6.00 H=0.60
+        T: Confidence-blocked intenders — unsold saved items, “Probably” intent. Ethnic / occasion / fashion-forward over basics.
+           (14.0pt  1A1A1A)
+  [29] TextBox 28 TEXT_BOX (17) L=6.82 T=6.18 W=6.10 H=0.28
+        T: OUT OF SCOPE
+           (14.0pt B 4A555C)
+  [30] TextBox 29 TEXT_BOX (17) L=6.82 T=6.44 W=6.10 H=0.60
+        T: Price-only waiters — no monetary lever exists. Rare / infrequent shoppers outside the monthly+ cadence.
+           (14.0pt  1A1A1A)
+  [31] Rectangle 30 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [32] TextBox 31 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [30] Text 28 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [33] TextBox 32 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 2
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 3 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: HOW THE AI DISCOVERY ENGINE WORKS
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: The engine ranks opportunities for WPCR — quality leads, price is out
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.30
+        T: Job: identify, quantify, and compare opportunity areas that could move WPCR at stage 3.  Open the live engine
+           (14.0pt  4A555C | 14.0pt B 1F4E79)
+  [8] Rounded Rectangle 7 AUTO_SHAPE (1) L=0.32 T=1.28 W=6.35 H=5.78
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: AI DISCOVERY ENGINE
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: Quality is loudest, fit is real, price is out of scope
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=1.50 W=6.90 H=1.00
-        T: Play Store + App Store + YouTube reviews → LLM-tagged by theme → mention share (n = 550). Reviews under-index silent wishlist freeze — this sets direction, not the full picture.
-           (12.5pt  5C6B73)
-  [6] Chart 0 CHART (3) L=0.50 T=2.55 W=6.90 H=3.90
-  [7] Shape 4 AUTO_SHAPE (1) L=7.65 T=1.50 W=5.15 H=4.55
-        fill=F4F7F9
-  [8] Text 5 AUTO_SHAPE (1) L=7.90 T=1.68 W=4.60 H=0.30
-        T: SCOPE READ-OUT
-           (11.0pt B 07293E)
-  [9] Shape 6 AUTO_SHAPE (1) L=7.90 T=2.13 W=0.12 H=0.12
-        fill=E8A33D
-  [10] Text 7 AUTO_SHAPE (1) L=8.15 T=2.08 W=3.05 H=0.32
-        T: Quality / authenticity
-           (12.0pt  1A1A1A)
-  [11] Text 8 AUTO_SHAPE (1) L=11.15 T=2.08 W=0.70 H=0.32
-        T: 47.8%
-           (12.0pt B B97A1E)
-  [12] Text 9 AUTO_SHAPE (1) L=11.85 T=2.08 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [13] Shape 10 AUTO_SHAPE (1) L=7.90 T=2.57 W=0.12 H=0.12
-        fill=E8A33D
-  [14] Text 11 AUTO_SHAPE (1) L=8.15 T=2.52 W=3.05 H=0.32
-        T: Fit / size
-           (12.0pt  1A1A1A)
-  [15] Text 12 AUTO_SHAPE (1) L=11.15 T=2.52 W=0.70 H=0.32
-        T: 13.0%
-           (12.0pt B B97A1E)
-  [16] Text 13 AUTO_SHAPE (1) L=11.85 T=2.52 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [17] Shape 14 AUTO_SHAPE (1) L=7.90 T=3.01 W=0.12 H=0.12
-        fill=E8A33D
-  [18] Text 15 AUTO_SHAPE (1) L=8.15 T=2.96 W=3.05 H=0.32
-        T: Comparison
-           (12.0pt  1A1A1A)
-  [19] Text 16 AUTO_SHAPE (1) L=11.15 T=2.96 W=0.70 H=0.32
-        T: 11.8%
-           (12.0pt B B97A1E)
-  [20] Text 17 AUTO_SHAPE (1) L=11.85 T=2.96 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [21] Shape 18 AUTO_SHAPE (1) L=7.90 T=3.45 W=0.12 H=0.12
-        fill=E8A33D
-  [22] Text 19 AUTO_SHAPE (1) L=8.15 T=3.40 W=3.05 H=0.32
-        T: External research
-           (12.0pt  1A1A1A)
-  [23] Text 20 AUTO_SHAPE (1) L=11.15 T=3.40 W=0.70 H=0.32
-        T: 10.5%
-           (12.0pt B B97A1E)
-  [24] Text 21 AUTO_SHAPE (1) L=11.85 T=3.40 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [25] Shape 22 AUTO_SHAPE (1) L=7.90 T=3.89 W=0.12 H=0.12
-        fill=E8A33D
-  [26] Text 23 AUTO_SHAPE (1) L=8.15 T=3.84 W=3.05 H=0.32
-        T: Found alternative
-           (12.0pt  1A1A1A)
-  [27] Text 24 AUTO_SHAPE (1) L=11.15 T=3.84 W=0.70 H=0.32
-        T: 5.2%
-           (12.0pt B B97A1E)
-  [28] Text 25 AUTO_SHAPE (1) L=11.85 T=3.84 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [29] Shape 26 AUTO_SHAPE (1) L=7.90 T=4.33 W=0.12 H=0.12
-        fill=E8A33D
-  [30] Text 27 AUTO_SHAPE (1) L=8.15 T=4.28 W=3.05 H=0.32
-        T: Occasion mismatch
-           (12.0pt  1A1A1A)
-  [31] Text 28 AUTO_SHAPE (1) L=11.15 T=4.28 W=0.70 H=0.32
-        T: 2.6%
-           (12.0pt B B97A1E)
-  [32] Text 29 AUTO_SHAPE (1) L=11.85 T=4.28 W=0.60 H=0.32
-        T: IN
-           (9.5pt B B97A1E)
-  [33] Shape 30 AUTO_SHAPE (1) L=7.90 T=4.77 W=0.12 H=0.12
-        fill=0B3D5C
-  [34] Text 31 AUTO_SHAPE (1) L=8.15 T=4.72 W=3.05 H=0.32
-        T: Price / deal-waiting
-           (12.0pt  1A1A1A)
-  [35] Text 32 AUTO_SHAPE (1) L=11.15 T=4.72 W=0.70 H=0.32
-        T: 13.9%
-           (12.0pt B 5C6B73)
-  [36] Text 33 AUTO_SHAPE (1) L=11.85 T=4.72 W=0.60 H=0.32
-        T: OUT
-           (9.5pt B 5C6B73)
-  [37] Text 34 AUTO_SHAPE (1) L=7.90 T=5.21 W=4.60 H=0.85
-        T: Combined in-scope confidence themes dominate; price is the largest single out-of-scope theme and is excluded from this solution.
-           (11.0pt  5C6B73)
-  [38] Text 35 AUTO_SHAPE (1) L=0.50 T=6.55 W=8.00 H=0.30
-        T: AI Discovery Engine: [LINK: AI Discovery Engine — Streamlit Tab 1]
-           (11.0pt B 07293E | 11.0pt  B97A1E)
-  [39] Text 36 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [9] TextBox 8 TEXT_BOX (17) L=0.44 T=1.34 W=6.10 H=0.30
+        T: CLICK PATH — ASK A GROUNDED QUESTION
+           (14.0pt B C46B2F)
+  [10] TextBox 9 TEXT_BOX (17) L=0.44 T=1.64 W=6.10 H=2.15
+        T: 1. Open the live app → tab Discovery Engine.
+           (14.0pt  1A1A1A)
+        T: 2. Click a theme shortcut (Fit, Quality, Price, Occasion, Comparison, Left the app) or type a PM question — e.g. why wishlist items stall.
+           (14.0pt  1A1A1A)
+        T: 3. Click Get grounded answer.
+           (14.0pt  1A1A1A)
+        T: 4. Read numbered findings + “Validate in interviews”. Any figure the writer cites that the count block does not support is discarded before it reaches a slide.
+           (14.0pt  1A1A1A)
+        T: 5. Right rail Opportunity comparison: headline, 424 / 7.5% / 10.8%, source-mix bars, blocker bars, reason bars.
+           (14.0pt  1A1A1A)
+  [11] TextBox 10 TEXT_BOX (17) L=0.44 T=3.80 W=6.10 H=0.28
+        T: OFFLINE PIPELINE  ·  LIVE AGENT
+           (14.0pt B 1E3A5F)
+  [12] TextBox 11 TEXT_BOX (17) L=0.44 T=4.08 W=6.10 H=1.15
+        T: Offline: scrape Play Store + App Store + YouTube → LLM curates gold → tag 4 dimensions (reason, blocker, comparison, outside research) → aggregate the opportunity table.
+           (14.0pt  1A1A1A)
+        T: Live: Router maps the question onto the real tag vocabulary (no keyword lists) → Retrieval ranks matched signals, IDF-weighted, spread across sources → Writer drafts findings under an anti-hallucination check.
+           (14.0pt  1A1A1A)
+  [13] TextBox 12 TEXT_BOX (17) L=0.44 T=5.28 W=6.10 H=0.28
+        T: HOW THE NUMBERS ARE MADE
+           (14.0pt B 1E3A5F)
+  [14] TextBox 13 TEXT_BOX (17) L=0.44 T=5.56 W=6.10 H=1.40
+        T: 424 = rows in the gold tagged JSON after scrape → curate → tag. Play 154 · YouTube 212 · App Store 58. No Reddit.
+           (14.0pt  1A1A1A)
+        T: Blocker % = label count ÷ 340 blocker mentions (not ÷ 424 reviews).
+           (14.0pt  1A1A1A)
+        T: 7.5% comparison = 32 / 424 rows tagged comparison-true. 10.8% external = 46 / 424 rows that mention leaving the app.
+           (14.0pt  1A1A1A)
+  [15] Rounded Rectangle 14 AUTO_SHAPE (1) L=6.80 T=1.28 W=6.22 H=5.78
+        fill=FFFFFF
+  [16] TextBox 15 TEXT_BOX (17) L=6.92 T=1.34 W=6.00 H=0.30
+        T: WHAT IT FOUND — RANKED FOR WPCR
+           (14.0pt B C46B2F)
+  [17] TextBox 16 TEXT_BOX (17) L=6.92 T=1.64 W=6.00 H=0.55
+        T: Quality doubt 44.7%; fit 20.3%. Price is larger at 23.8% but OUT — no monetary lever. Comparison 7.5%; leave-app 10.8%.
+           (14.0pt B 1E3A5F)
+  [18] Picture 17 PICTURE (13) L=6.95 T=2.22 W=5.95 H=2.55
+  [19] TextBox 18 TEXT_BOX (17) L=6.92 T=4.80 W=6.00 H=0.28
+        T: PATTERNS (PARAPHRASED — NEVER QUOTED)
+           (14.0pt B 1E3A5F)
+  [20] TextBox 19 TEXT_BOX (17) L=6.92 T=5.08 W=6.00 H=1.15
+        T: Quality: fabric/finish cheaper than the listing, or authenticity doubt.
+           (14.0pt  1A1A1A)
+        T: Fit: size chart is not trusted without a planned exchange.
+           (14.0pt  1A1A1A)
+        T: Found alt: same item checked on another app — other apps are 60.9% of outside-app mentions (YouTube 17.4% · friends 10.9% · Google 8.7%).
+           (14.0pt  1A1A1A)
+  [21] TextBox 20 TEXT_BOX (17) L=6.92 T=6.22 W=6.00 H=0.72
+        T: Caveats: public reviews under-index the silent freeze (nobody reviews an item they never bought). Quality bucket is broad — keyword fallback on null tags can absorb service/delivery noise.
+           (14.0pt  4A555C)
+  [22] Rectangle 21 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [23] TextBox 22 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [40] Text 37 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [24] TextBox 23 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 3
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 4 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: THE MVP — SHOPPER UI
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: On the wishlist: ask, compare, or (demo) get it in 30 minutes
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.30
+        T: Same URL, tab Fit & Confidence Assistant. Grounded in this product's reviews — not the 424 discovery corpus.  Open deployed MVP
+           (14.0pt  4A555C | 14.0pt B 1F4E79)
+  [8] Rounded Rectangle 7 AUTO_SHAPE (1) L=0.32 T=1.28 W=6.35 H=3.05
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: PRIMARY RESEARCH — PILOT SURVEY
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: Pilot (n=10): monthly+ shoppers in “Probably” leave the app — 7/10 blockers are confidence
-           (19.0pt B 07293E)
-  [5] Shape 3 AUTO_SHAPE (1) L=0.50 T=1.55 W=12.30 H=0.55
-        fill=FCEFDA
-  [6] Text 4 AUTO_SHAPE (1) L=0.70 T=1.55 W=11.90 H=0.55
-        T: Caveat: n=10, not statistically powered; screener leaky (frequency/wishlist-size blank for 7/10). We pursue the 7/10 confidence cluster, not the 3/10 price cluster.
-           (11.0pt  07293E)
-  [7] Text 5 AUTO_SHAPE (1) L=0.50 T=2.28 W=5.60 H=0.30
-        T: MAIN BLOCKER (of 10)
-           (11.0pt B 07293E)
-  [8] Chart 0 CHART (3) L=0.40 T=2.58 W=5.90 H=2.15
-  [9] Shape 6 AUTO_SHAPE (1) L=0.40 T=4.81 W=5.90 H=0.55
-        fill=07293E
-  [10] Text 7 AUTO_SHAPE (1) L=0.55 T=4.81 W=5.60 H=0.55
-        T: Confidence cluster (comparison + quality + occasion + fit) = 7/10
-           (12.0pt B E8A33D)
-  [11] Text 8 AUTO_SHAPE (1) L=0.40 T=5.48 W=5.90 H=0.75
-        T: Named items: 4/10 ethnic/occasion (Rakhi dress, wedding dress, kurta set, kurta)
-Intent: Probably 6/10 · Yes, definitely 3/10 · Not sure 1/10
-           (11.5pt B 07293E | 11.5pt  1A1A1A | 11.5pt B 07293E | 11.5pt  1A1A1A)
-  [12] Shape 9 AUTO_SHAPE (1) L=6.65 T=2.28 W=6.15 H=4.05
-        fill=F4F7F9
-  [13] Text 10 AUTO_SHAPE (1) L=6.90 T=2.45 W=5.65 H=0.30
-        T: OUTSIDE-APP BEHAVIOUR — 10/10 did at least one
-           (11.0pt B 07293E)
-  [14] Text 11 AUTO_SHAPE (1) L=6.90 T=2.78 W=5.65 H=0.65
-        T: Compare prices — 6   ·   Visit store — 6
-           (12.5pt  1A1A1A)
-        T: Instagram — 3   ·   Friends — 3   ·   YouTube/Google — 3
-           (12.5pt  1A1A1A)
-  [15] Text 12 AUTO_SHAPE (1) L=6.90 T=3.55 W=5.65 H=0.30
-        T: WHAT WOULD UNSTICK THEM
-           (11.0pt B 07293E)
-  [16] Text 13 AUTO_SHAPE (1) L=6.90 T=3.85 W=5.65 H=0.35
-        T: 7/10 wanted similar-buyer reviews/photos
-           (12.5pt  1A1A1A)
-  [17] Text 14 AUTO_SHAPE (1) L=6.90 T=4.33 W=5.65 H=0.30
-        T: COPING TODAY
-           (11.0pt B 07293E)
-  [18] Text 15 AUTO_SHAPE (1) L=6.90 T=4.63 W=5.65 H=1.60
-        T: Order two sizes, keep the one that fits
-           (12.5pt  1A1A1A)
-        T: Order per size chart, then exchange
-           (12.5pt  1A1A1A)
-        T: Leave it in the wishlist until payday
-           (12.5pt  1A1A1A)
-  [19] Text 16 AUTO_SHAPE (1) L=0.50 T=6.75 W=8.00 H=0.30
-        T: Survey: [LINK: Google Form viewform]
-           (11.0pt B 07293E | 11.0pt  B97A1E)
-  [20] Text 17 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [9] TextBox 8 TEXT_BOX (17) L=0.44 T=1.32 W=6.10 H=0.28
+        T: 1. WISHLIST + FILTERS
+           (14.0pt B C46B2F)
+  [10] TextBox 9 TEXT_BOX (17) L=0.44 T=1.58 W=6.10 H=0.40
+        T: Cards: image, brand, price, review badge. Pills All / Ethnic Wear / In stock narrow the frozen SKU. Select a card to ask about it.
+           (14.0pt  1A1A1A)
+  [11] Rounded Rectangle 10 AUTO_SHAPE (1) L=0.50 T=2.02 W=1.42 H=0.32
+        fill=E6EEF4
+  [12] TextBox 11 TEXT_BOX (17) L=0.50 T=2.02 W=1.42 H=0.32
+        T: All
+           (14.0pt B 1E3A5F)
+  [13] Rounded Rectangle 12 AUTO_SHAPE (1) L=2.05 T=2.02 W=1.42 H=0.32
+        fill=1E3A5F
+  [14] TextBox 13 TEXT_BOX (17) L=2.05 T=2.02 W=1.42 H=0.32
+        T: Ethnic Wear
+           (14.0pt B FFFFFF)
+  [15] Rounded Rectangle 14 AUTO_SHAPE (1) L=3.60 T=2.02 W=1.42 H=0.32
+        fill=E6EEF4
+  [16] TextBox 15 TEXT_BOX (17) L=3.60 T=2.02 W=1.42 H=0.32
+        T: In stock
+           (14.0pt B 1E3A5F)
+  [17] Rounded Rectangle 16 AUTO_SHAPE (1) L=0.48 T=2.42 W=1.92 H=1.78
+        fill=E6EEF4
+  [18] Rectangle 17 AUTO_SHAPE (1) L=0.48 T=2.42 W=1.92 H=0.08
+        fill=FF3F6C
+  [19] TextBox 18 TEXT_BOX (17) L=0.54 T=2.52 W=1.80 H=0.28
+        T: Libas
+           (14.0pt B 1E3A5F)
+  [20] TextBox 19 TEXT_BOX (17) L=0.54 T=2.78 W=1.80 H=0.45
+        T: Embroidered Anarkali
+           (14.0pt  4A555C)
+  [21] TextBox 20 TEXT_BOX (17) L=0.54 T=3.20 W=1.80 H=0.28
+        T: Rs. 2499
+           (14.0pt B 1A1A1A)
+  [22] Rounded Rectangle 21 AUTO_SHAPE (1) L=0.56 T=3.52 W=1.72 H=0.28
+        fill=2C3E50
+  [23] TextBox 22 TEXT_BOX (17) L=0.56 T=3.52 W=1.72 H=0.28
+        T: Reviews: enough
+           (14.0pt B FFFFFF)
+  [24] Rounded Rectangle 23 AUTO_SHAPE (1) L=2.50 T=2.42 W=1.92 H=1.78
+        fill=E6EEF4
+  [25] Rectangle 24 AUTO_SHAPE (1) L=2.50 T=2.42 W=1.92 H=0.08
+        fill=FF3F6C
+  [26] TextBox 25 TEXT_BOX (17) L=2.56 T=2.52 W=1.80 H=0.28
+        T: Sassafras
+           (14.0pt B 1E3A5F)
+  [27] TextBox 26 TEXT_BOX (17) L=2.56 T=2.78 W=1.80 H=0.45
+        T: Sequinned Gown
+           (14.0pt  4A555C)
+  [28] TextBox 27 TEXT_BOX (17) L=2.56 T=3.20 W=1.80 H=0.28
+        T: Rs. 3299
+           (14.0pt B 1A1A1A)
+  [29] Rounded Rectangle 28 AUTO_SHAPE (1) L=2.58 T=3.52 W=1.72 H=0.28
+        fill=2C3E50
+  [30] TextBox 29 TEXT_BOX (17) L=2.58 T=3.52 W=1.72 H=0.28
+        T: Reviews: enough
+           (14.0pt B FFFFFF)
+  [31] Rounded Rectangle 30 AUTO_SHAPE (1) L=4.52 T=2.42 W=1.92 H=1.78
+        fill=E6EEF4
+  [32] Rectangle 31 AUTO_SHAPE (1) L=4.52 T=2.42 W=1.92 H=0.08
+        fill=FF3F6C
+  [33] TextBox 32 TEXT_BOX (17) L=4.58 T=2.52 W=1.80 H=0.28
+        T: Ahalyaa
+           (14.0pt B 1E3A5F)
+  [34] TextBox 33 TEXT_BOX (17) L=4.58 T=2.78 W=1.80 H=0.45
+        T: Kurta + Palazzo
+           (14.0pt  4A555C)
+  [35] TextBox 34 TEXT_BOX (17) L=4.58 T=3.20 W=1.80 H=0.28
+        T: Rs. 1899
+           (14.0pt B 1A1A1A)
+  [36] Rounded Rectangle 35 AUTO_SHAPE (1) L=4.60 T=3.52 W=1.72 H=0.28
+        fill=2C3E50
+  [37] TextBox 36 TEXT_BOX (17) L=4.60 T=3.52 W=1.72 H=0.28
+        T: Reviews: enough
+           (14.0pt B FFFFFF)
+  [38] Rounded Rectangle 37 AUTO_SHAPE (1) L=6.80 T=1.28 W=6.22 H=3.05
+        fill=FFFFFF
+  [39] TextBox 38 TEXT_BOX (17) L=6.92 T=1.32 W=6.00 H=0.28
+        T: 2. STILL DECIDING
+           (14.0pt B C46B2F)
+  [40] TextBox 39 TEXT_BOX (17) L=6.92 T=1.60 W=6.00 H=0.70
+        T: Usual size + occasion + free-text question → Get answer → exactly one verdict + proof bullets from this SKU's reviews → Add to bag or Still not sure.
+           (14.0pt  1A1A1A)
+  [41] Rounded Rectangle 40 AUTO_SHAPE (1) L=7.02 T=2.35 W=5.88 H=1.82
+        fill=F8EEE4
+  [42] TextBox 41 TEXT_BOX (17) L=7.12 T=2.40 W=5.70 H=0.28
+        T: WORKED EXAMPLE  ·  RUNS SMALL
+           (14.0pt B C46B2F)
+  [43] TextBox 42 TEXT_BOX (17) L=7.12 T=2.68 W=5.70 H=1.40
+        T: Verdict: Size up, then buy
+           (14.0pt B 1A1A1A | 14.0pt B 1E3A5F)
+        T: “Go one size up from your usual — this runs a little small.”
+           (14.0pt  1A1A1A)
+        T: Proof: several reviewers say it runs small and recommend ordering one size up.
+           (14.0pt  1A1A1A)
+  [44] Rounded Rectangle 43 AUTO_SHAPE (1) L=0.32 T=4.46 W=3.10 H=2.58
+        fill=E6EEF4
+  [45] TextBox 44 TEXT_BOX (17) L=0.42 T=4.52 W=2.90 H=0.50
+        T: 3. COMPARE 2–3
+           (14.0pt B 1E3A5F)
+  [46] TextBox 45 TEXT_BOX (17) L=0.42 T=5.02 W=2.90 H=1.90
+        T: Tick 2–3 saved items → recommendation + table. Hard cap at 3. Breaks gown-vs-kurta freeze without opening another app.
+           (14.0pt  1A1A1A)
+  [47] Rounded Rectangle 46 AUTO_SHAPE (1) L=3.54 T=4.46 W=3.10 H=2.58
+        fill=F8EEE4
+  [48] TextBox 47 TEXT_BOX (17) L=3.64 T=4.52 W=2.90 H=0.50
+        T: 4. 30-MIN EXPRESS (DEMO)
+           (14.0pt B 1E3A5F)
+  [49] TextBox 48 TEXT_BOX (17) L=3.64 T=5.02 W=2.90 H=1.90
+        T: “Want delivery in 30 mins?” → pincode → Check. Hub + size in stock → Yes / Not now / Get it in 30 mins. Else: not in area, or size not in hub (standard delivery). Demo pin→hub lookup, not live dark stores. No coupon.
+           (14.0pt  1A1A1A)
+  [50] Rounded Rectangle 49 AUTO_SHAPE (1) L=6.76 T=4.46 W=3.10 H=2.58
+        fill=F6EBDC
+  [51] TextBox 50 TEXT_BOX (17) L=6.86 T=4.52 W=2.90 H=0.50
+        T: 5. COULD-HAVE — VIRTUAL TRY-ON
+           (14.0pt B 1E3A5F)
+  [52] TextBox 51 TEXT_BOX (17) L=6.86 T=5.02 W=2.90 H=1.90
+        T: Wanted: upload a photo and see the dress on you. Not shipped — no free try-on API was good enough. Named as the next iteration if a usable model exists. Not drawn as if it is live.
+           (14.0pt  1A1A1A)
+  [53] Rounded Rectangle 52 AUTO_SHAPE (1) L=9.98 T=4.46 W=3.10 H=2.58
+        fill=E6EEF4
+  [54] TextBox 53 TEXT_BOX (17) L=10.08 T=4.52 W=2.90 H=0.50
+        T: DELIBERATELY NOT BUILT
+           (14.0pt B 1E3A5F)
+  [55] TextBox 54 TEXT_BOX (17) L=10.08 T=5.02 W=2.90 H=1.90
+        T: No numeric confidence %. No personalised fit from order history. No support chatbot. Thin evidence → “Too few reviews” / Need more info — never guess.
+           (14.0pt  1A1A1A)
+  [56] Rectangle 55 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [57] TextBox 56 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [21] Text 18 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [58] TextBox 57 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 4
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 5 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: WHO WE TALKED TO AND WHY
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: Three intenders, one freeze: they leave the app to decide
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.42
+        T: Three interview cards are directional composites from the dormant-item form themes and the catalog-tied pilot — not a statistically powered sample. Screener gate: ≥1 unsold wishlist item, not 5+.
+           (14.0pt  4A555C)
+  [8] Rounded Rectangle 7 AUTO_SHAPE (1) L=0.32 T=1.40 W=4.16 H=3.55
+        fill=F8EEE4
+  [9] Rectangle 8 AUTO_SHAPE (1) L=0.32 T=1.40 W=0.10 H=3.55
+        fill=1E3A5F
+  [10] TextBox 9 TEXT_BOX (17) L=0.54 T=1.46 W=3.82 H=0.32
+        T: Aadyant, 26
+           (14.0pt B 1E3A5F)
+  [11] TextBox 10 TEXT_BOX (17) L=0.54 T=1.76 W=3.82 H=0.32
+        T: Occasion ethnic  ·  intent “Probably”
+           (14.0pt B C46B2F)
+  [12] TextBox 11 TEXT_BOX (17) L=0.54 T=2.12 W=3.82 H=2.70
+        T: Why wishlisted: liked the look; saved for a family function.
+           (14.0pt  1A1A1A)
+        T: Pain: listing photos vs threadwork/fabric in daylight.
+           (14.0pt  1A1A1A)
+        T: JTBD: know if it will look cheap in person before buying.
+           (14.0pt  1A1A1A)
+        T: Workaround: Google / cousin.
+           (14.0pt  1A1A1A)
+        T: “I still don’t know if the embroidery will look cheap in daylight.”
+           (14.0pt B 1E3A5F)
+  [13] Rounded Rectangle 12 AUTO_SHAPE (1) L=4.62 T=1.40 W=4.16 H=3.55
+        fill=E6EEF4
+  [14] Rectangle 13 AUTO_SHAPE (1) L=4.62 T=1.40 W=0.10 H=3.55
+        fill=1E3A5F
+  [15] TextBox 14 TEXT_BOX (17) L=4.84 T=1.46 W=3.82 H=0.32
+        T: Meera, 28
+           (14.0pt B 1E3A5F)
+  [16] TextBox 15 TEXT_BOX (17) L=4.84 T=1.76 W=3.82 H=0.32
+        T: Two saved looks  ·  comparison freeze
+           (14.0pt B C46B2F)
+  [17] TextBox 16 TEXT_BOX (17) L=4.84 T=2.12 W=3.82 H=2.70
+        T: Why: comparing options already on the wishlist.
+           (14.0pt  1A1A1A)
+        T: Pain: gown vs kurta-set for the same evening; opens other apps.
+           (14.0pt  1A1A1A)
+        T: JTBD: pick one SKU without leaving Myntra.
+           (14.0pt  1A1A1A)
+        T: Workaround: YouTube unboxing + other saved piece.
+           (14.0pt  1A1A1A)
+        T: “I keep opening the other saved piece instead of deciding.”
+           (14.0pt B 1E3A5F)
+  [18] Rounded Rectangle 17 AUTO_SHAPE (1) L=8.92 T=1.40 W=4.16 H=3.55
+        fill=F8EEE4
+  [19] Rectangle 18 AUTO_SHAPE (1) L=8.92 T=1.40 W=0.10 H=3.55
+        fill=1E3A5F
+  [20] TextBox 19 TEXT_BOX (17) L=9.14 T=1.46 W=3.82 H=0.32
+        T: Kabir, 24
+           (14.0pt B 1E3A5F)
+  [21] TextBox 20 TEXT_BOX (17) L=9.14 T=1.76 W=3.82 H=0.32
+        T: Fit freeze  ·  sitting 2+ weeks
+           (14.0pt B C46B2F)
+  [22] TextBox 21 TEXT_BOX (17) L=9.14 T=2.12 W=3.82 H=2.70
+        T: Why: liked the look; not sure on size.
+           (14.0pt  1A1A1A)
+        T: Pain: usual M vs reviews that say size up.
+           (14.0pt  1A1A1A)
+        T: JTBD: a clear size call so the item leaves the list.
+           (14.0pt  1A1A1A)
+        T: Workaround: order, then exchange.
+           (14.0pt  1A1A1A)
+        T: “I’ll order when I know whether to take M or L.”
+           (14.0pt B 1E3A5F)
+  [23] Rounded Rectangle 22 AUTO_SHAPE (1) L=0.32 T=5.05 W=4.16 H=2.02
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: PROBLEM DEFINITION
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: No in-app way to resolve fit, quality, or comparison on ethnic saved items
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=1.55 W=2.30 H=0.55
-        T: SEGMENT
-           (11.0pt B B97A1E)
-  [6] Text 4 AUTO_SHAPE (1) L=2.95 T=1.55 W=9.85 H=0.55
-        T: 24–30, Tier 1–2, shop fashion at least once a month, 5+ wishlist items, several dormant 2+ weeks, “Probably” intent, ethnic/occasion or fashion-forward
-           (12.5pt  1A1A1A)
-  [7] Text 5 AUTO_SHAPE (1) L=0.50 T=2.17 W=2.30 H=0.55
-        T: PRODUCT OUTCOME
-           (11.0pt B B97A1E)
-  [8] Text 6 AUTO_SHAPE (1) L=2.95 T=2.17 W=9.85 H=0.55
-        T: Decision Confidence Rate (funnel stage 2)
-           (12.5pt  1A1A1A)
-  [9] Text 7 AUTO_SHAPE (1) L=0.50 T=2.79 W=2.30 H=0.55
-        T: ROOT CAUSE
-           (11.0pt B B97A1E)
-  [10] Text 8 AUTO_SHAPE (1) L=2.95 T=2.79 W=9.85 H=0.55
-        T: No in-app mechanism to resolve fit, quality (fabric/threadwork vs. photo), or comparison doubt at reconsideration — users leave the app and the loop rarely completes
-           (12.5pt  1A1A1A)
-  [11] Text 9 AUTO_SHAPE (1) L=0.50 T=3.41 W=2.30 H=0.55
-        T: WORKAROUNDS TODAY
-           (11.0pt B B97A1E)
-  [12] Text 10 AUTO_SHAPE (1) L=2.95 T=3.41 W=9.85 H=0.55
-        T: Order multiple sizes and return, ask friends, visit stores, search reviews off-app, leave items in an ever-growing wishlist
-           (12.5pt  1A1A1A)
-  [13] Text 11 AUTO_SHAPE (1) L=0.50 T=4.03 W=2.30 H=0.55
-        T: USER VALUE
-           (11.0pt B B97A1E)
-  [14] Text 12 AUTO_SHAPE (1) L=2.95 T=4.03 W=9.85 H=0.55
-        T: Less anxiety, fewer returns, faster yes/no on occasion purchases
-           (12.5pt  1A1A1A)
-  [15] Text 13 AUTO_SHAPE (1) L=0.50 T=4.65 W=2.30 H=0.55
-        T: BUSINESS VALUE
-           (11.0pt B B97A1E)
-  [16] Text 14 AUTO_SHAPE (1) L=2.95 T=4.65 W=9.85 H=0.55
-        T: Higher-AOV ethnic slice converts existing saved demand without discounting; avoids inflating returns
-           (12.5pt  1A1A1A)
-  [17] Shape 15 AUTO_SHAPE (1) L=0.50 T=5.42 W=12.30 H=1.10
-        fill=07293E
-  [18] Text 16 AUTO_SHAPE (1) L=0.50 T=5.52 W=2.46 H=0.90
-        T: WPCR
-           (10.5pt  FFFFFF)
-  [19] Text 17 AUTO_SHAPE (1) L=2.74 T=5.77 W=0.30 H=0.40
-        T: →
-           (14.0pt  E8A33D)
-  [20] Text 18 AUTO_SHAPE (1) L=2.96 T=5.52 W=2.46 H=0.90
-        T: Stage-2
-           (10.5pt  FFFFFF)
-        T: Outcome
-           (10.5pt  FFFFFF)
-  [21] Text 19 AUTO_SHAPE (1) L=5.20 T=5.77 W=0.30 H=0.40
-        T: →
-           (14.0pt  E8A33D)
-  [22] Text 20 AUTO_SHAPE (1) L=5.42 T=5.52 W=2.46 H=0.90
-        T: AI Discovery
-           (10.5pt  FFFFFF)
-        T: (quality+fit in;
-           (10.5pt  FFFFFF)
-        T: price out)
-           (10.5pt  FFFFFF)
-  [23] Text 21 AUTO_SHAPE (1) L=7.66 T=5.77 W=0.30 H=0.40
-        T: →
-           (14.0pt  E8A33D)
-  [24] Text 22 AUTO_SHAPE (1) L=7.88 T=5.52 W=2.46 H=0.90
-        T: Primary Research
-           (10.5pt  FFFFFF)
-        T: (7/10 confidence;
-           (10.5pt  FFFFFF)
-        T: 6/10 Probably)
-           (10.5pt  FFFFFF)
-  [25] Text 23 AUTO_SHAPE (1) L=10.12 T=5.77 W=0.30 H=0.40
-        T: →
-           (14.0pt  E8A33D)
-  [26] Text 24 AUTO_SHAPE (1) L=10.34 T=5.52 W=2.46 H=0.90
-        T: In-App
-           (10.5pt B E8A33D)
-        T: Confidence Gap
-           (10.5pt B E8A33D)
-  [27] Text 25 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [24] TextBox 23 TEXT_BOX (17) L=0.44 T=5.10 W=3.92 H=0.32
+        T: FORM  ·  PRIMARY
+           (14.0pt B C46B2F)
+  [25] TextBox 24 TEXT_BOX (17) L=0.44 T=5.42 W=3.92 H=1.55
+        T: Live Google Form  ·  open the viewform
+           (14.0pt  1A1A1A | 14.0pt B 1F4E79)
+        T: Recruited pilot, n = 6, monthly+ fashion, ≥1 unsold item. Asked: why saved, still intend THIS item, main blocker now, what would unstick in 30 days, info still needed, alternatives, outside the app, would an in-app assistant help decide faster.
+           (14.0pt  1A1A1A)
+  [26] Rounded Rectangle 25 AUTO_SHAPE (1) L=4.62 T=5.05 W=4.16 H=2.02
+        fill=FFFFFF
+  [27] TextBox 26 TEXT_BOX (17) L=4.74 T=5.10 W=3.92 H=0.32
+        T: 1:1 INTERVIEW INSIGHTS
+           (14.0pt B C46B2F)
+  [28] TextBox 27 TEXT_BOX (17) L=4.74 T=5.42 W=3.92 H=1.55
+        T: Confidence (quality / compare / fit) dominates these intenders. They leave the app to decide. Aadyant = quality, Meera = compare, Kabir = fit. Buying a different wishlisted SKU in 30 days is context only — not a gate.
+           (14.0pt  1A1A1A)
+  [29] Rounded Rectangle 28 AUTO_SHAPE (1) L=8.92 T=5.05 W=4.16 H=2.02
+        fill=FFFFFF
+  [30] TextBox 29 TEXT_BOX (17) L=9.04 T=5.10 W=3.92 H=0.32
+        T: SECONDARY  ·  USER BEHAVIOUR
+           (14.0pt B C46B2F)
+  [31] TextBox 30 TEXT_BOX (17) L=9.04 T=5.42 W=3.92 H=1.55
+        T: Corpus: leave-app 10.8% of tagged rows; when they leave, other shopping apps are 60.9% of those mentions. Do not merge with 6/6. Reviews under-index the silent freeze — the form probes it directly.
+           (14.0pt  1A1A1A)
+  [32] Rectangle 31 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [33] TextBox 32 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [28] Text 26 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [34] TextBox 33 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 5
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 6 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: WHAT PRIMARY RESEARCH CONFIRMED, AND CHANGED
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: Corpus ranks price #2; these intenders are blocked by confidence
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.32
+        T: Confidence dominates for real intenders, even though price ranks #2 corpus-wide. Personas on slide 5 illustrate the cluster.
+           (14.0pt  4A555C)
+  [8] Rounded Rectangle 7 AUTO_SHAPE (1) L=0.32 T=1.32 W=6.35 H=4.55
+        fill=E6EEF4
+  [9] TextBox 8 TEXT_BOX (17) L=0.48 T=1.40 W=6.05 H=0.35
+        T: CONFIRMED
+           (14.0pt B 1E3A5F)
+  [10] TextBox 9 TEXT_BOX (17) L=0.48 T=1.80 W=6.05 H=3.90
+        T: •  6/6 left the app to do something before deciding — the confidence gap is real, not theoretical.
+           (14.0pt  1A1A1A)
+        T: •  6/6 main blockers sit in the confidence cluster: comparison, quality, occasion, fit. Price was not the main blocker for anyone in this pilot (0/6).
+           (14.0pt  1A1A1A)
+        T: •  4/6 named similar-buyer reviews/photos as what would unstick them; another 1/6 wanted clearer fit/sizing.
+           (14.0pt  1A1A1A)
+        T: •  4/6 said an in-app assistant would have helped them decide faster (2/6 Maybe, 0 No) — that is what the MVP delivers.
+           (14.0pt  1A1A1A)
+        T: •  Aadyant (quality), Meera (compare), Kabir (fit) are the three faces of the same freeze.
+           (14.0pt  1A1A1A)
+        T: •  Intent when saved: 4/6 Probably, 2/6 Yes, definitely — stuck in ambiguity, not abandoned.
+           (14.0pt  1A1A1A)
+  [11] Rounded Rectangle 10 AUTO_SHAPE (1) L=6.80 T=1.32 W=6.22 H=4.55
+        fill=F8EEE4
+  [12] TextBox 11 TEXT_BOX (17) L=6.96 T=1.40 W=5.90 H=0.35
+        T: CHANGED
+           (14.0pt B C46B2F)
+  [13] TextBox 12 TEXT_BOX (17) L=6.96 T=1.80 W=5.90 H=3.90
+        T: •  Discovery corpus (n = 424): price is the #2 blocker overall at 23.8%.
+           (14.0pt  1A1A1A)
+        T: •  These intenders (n = 6): price is 0/6 as the main blocker; the confidence cluster is 6/6.
+           (14.0pt  1A1A1A)
+        T: •  So the target is the confidence cluster, not the price waiters — which is out of scope regardless, per the no-monetary-incentives constraint.
+           (14.0pt  1A1A1A)
+        T: •  Public reviews under-index freeze; the form is the second layer, not a combined rate.
+           (14.0pt  1A1A1A)
+        T: •  Read directionally, not statistically: n = 6 is a recruited pilot, not a powered sample.
+           (14.0pt  1A1A1A)
+  [14] Rounded Rectangle 13 AUTO_SHAPE (1) L=0.32 T=6.00 W=12.70 H=1.08
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: SOLUTION RATIONALE
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: Why ethnic-wear confidence, not basics and not discounts (once-a-month included)
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=1.60 W=6.00 H=3.00
-        T: Ethnic/occasion/fashion-forward has higher AOV than basics and higher hesitation — same lift moves more GMV
-           (13.5pt  1A1A1A)
-        T: Confidence themes (quality, fit, comparison, occasion) outweigh price in both AI discovery and primary research once price is excluded
-           (13.5pt  1A1A1A)
-        T: One product, one mechanism (in-app decision confidence) serves both frequency segments — not two different builds
-           (13.5pt  1A1A1A)
-  [6] Shape 4 AUTO_SHAPE (1) L=0.50 T=4.75 W=6.00 H=1.30
-        fill=F4F7F9
-  [7] Text 5 AUTO_SHAPE (1) L=0.70 T=4.90 W=5.60 H=0.30
-        T: EXPLICITLY NOT SOLVING
-           (11.0pt B 07293E)
-  [8] Text 6 AUTO_SHAPE (1) L=0.70 T=5.22 W=5.60 H=0.70
-        T: Acquisition · “add more to wishlist” · reminder/push spam · price or discount levers
-           (12.5pt  5C6B73)
-  [9] Shape 7 AUTO_SHAPE (1) L=6.85 T=1.60 W=5.95 H=2.15
-        fill=E8A33D
-  [10] Text 8 AUTO_SHAPE (1) L=7.10 T=1.78 W=5.45 H=0.30
-        T: PRIMARY DESIGN CASE
-           (10.5pt B 07293E)
-  [11] Text 9 AUTO_SHAPE (1) L=7.10 T=2.10 W=5.45 H=0.40
-        T: 2–4×/month intenders
-           (16.0pt B 07293E)
-  [12] Text 10 AUTO_SHAPE (1) L=7.10 T=2.55 W=5.45 H=1.05
-        T: Already open the app often — their gap is confidence, not return frequency.
-           (12.5pt  07293E)
-  [13] Shape 11 AUTO_SHAPE (1) L=6.85 T=4.00 W=5.95 H=2.15
-        fill=F4F7F9
-  [14] Text 12 AUTO_SHAPE (1) L=7.10 T=4.18 W=5.45 H=0.30
-        T: ALSO IN SCOPE
-           (10.5pt B B97A1E)
-  [15] Text 13 AUTO_SHAPE (1) L=7.10 T=4.50 W=5.45 H=0.40
-        T: Once-a-month intenders
-           (16.0pt B 07293E)
-  [16] Text 14 AUTO_SHAPE (1) L=7.10 T=4.95 W=5.45 H=1.05
-        T: Same dormant-wishlist + confidence pattern. Fewer sessions in a 30-day window means revisit matters too — a segment-width note, not a reason to build re-engagement as the hero.
-           (12.5pt  5C6B73)
-  [17] Text 15 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [15] TextBox 14 TEXT_BOX (17) L=0.48 T=6.08 W=12.40 H=0.92
+        T: Two evidence layers, never merged: public reviews mention leaving the app in 10.8% of tagged rows; survey respondents (n = 6) almost all did. Directional context, not one combined rate. Drop any leftover n = 10 / 7-of-10 screener language — it is not this study.
+           (14.0pt  1A1A1A)
+  [16] Rectangle 15 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [17] TextBox 16 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [18] Text 16 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [18] TextBox 17 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 6
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 7 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: THE PROBLEM, PRECISELY DEFINED
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: No in-app way to resolve fit, quality, or compare on a saved item
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] Rounded Rectangle 6 AUTO_SHAPE (1) L=0.32 T=0.98 W=4.16 H=1.30
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: MVP
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: Fit & Confidence Assistant lives inside the wishlist
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=1.50 W=12.30 H=0.35
-        T: Surfaces at the existing wishlist, at the moment of reconsideration — not a new destination.
-           (13.0pt  5C6B73)
-  [6] Shape 4 AUTO_SHAPE (1) L=0.50 T=2.05 W=3.00 H=2.00
-        fill=F4F7F9
-  [7] Shape 5 AUTO_SHAPE (1) L=0.70 T=2.25 W=0.40 H=0.40
-        fill=E8A33D
-  [8] Text 6 AUTO_SHAPE (1) L=0.70 T=2.25 W=0.40 H=0.40
-        T: 1
-           (14.0pt B 07293E)
-  [9] Text 7 AUTO_SHAPE (1) L=0.70 T=2.80 W=2.60 H=0.60
-        T: Confidence score + provenance
-           (13.0pt B 07293E)
-  [10] Text 8 AUTO_SHAPE (1) L=0.70 T=3.35 W=2.60 H=0.65
-        T: Derived from aggregated review/return data, sourced transparently
-           (11.0pt  5C6B73)
-  [11] Shape 9 AUTO_SHAPE (1) L=3.60 T=2.05 W=3.00 H=2.00
-        fill=F4F7F9
-  [12] Shape 10 AUTO_SHAPE (1) L=3.80 T=2.25 W=0.40 H=0.40
-        fill=E8A33D
-  [13] Text 11 AUTO_SHAPE (1) L=3.80 T=2.25 W=0.40 H=0.40
-        T: 2
-           (14.0pt B 07293E)
-  [14] Text 12 AUTO_SHAPE (1) L=3.80 T=2.80 W=2.60 H=0.60
-        T: Ask a question
-           (13.0pt B 07293E)
-  [15] Text 13 AUTO_SHAPE (1) L=3.80 T=3.35 W=2.60 H=0.65
-        T: Fit, quality, or occasion-fit, answered from aggregated review/Q&A text
-           (11.0pt  5C6B73)
-  [16] Shape 14 AUTO_SHAPE (1) L=6.70 T=2.05 W=3.00 H=2.00
-        fill=F4F7F9
-  [17] Shape 15 AUTO_SHAPE (1) L=6.90 T=2.25 W=0.40 H=0.40
-        fill=E8A33D
-  [18] Text 16 AUTO_SHAPE (1) L=6.90 T=2.25 W=0.40 H=0.40
-        T: 3
-           (14.0pt B 07293E)
-  [19] Text 17 AUTO_SHAPE (1) L=6.90 T=2.80 W=2.60 H=0.60
-        T: Personalized fit cross-reference
-           (13.0pt B 07293E)
-  [20] Text 18 AUTO_SHAPE (1) L=6.90 T=3.35 W=2.60 H=0.65
-        T: Uses the user's own past order/fit history where available
-           (11.0pt  5C6B73)
-  [21] Shape 19 AUTO_SHAPE (1) L=9.80 T=2.05 W=3.00 H=2.00
-        fill=F4F7F9
-  [22] Shape 20 AUTO_SHAPE (1) L=10.00 T=2.25 W=0.40 H=0.40
-        fill=E8A33D
-  [23] Text 21 AUTO_SHAPE (1) L=10.00 T=2.25 W=0.40 H=0.40
-        T: 4
-           (14.0pt B 07293E)
-  [24] Text 22 AUTO_SHAPE (1) L=10.00 T=2.80 W=2.60 H=0.60
-        T: Compare
-           (13.0pt B 07293E)
-  [25] Text 23 AUTO_SHAPE (1) L=10.00 T=3.35 W=2.60 H=0.65
-        T: Max 2–3 saved similar items side by side, capped to avoid decision fatigue
-           (11.0pt  5C6B73)
-  [26] Shape 24 AUTO_SHAPE (1) L=0.50 T=4.35 W=12.30 H=1.85
-        fill=07293E
-  [27] Text 25 AUTO_SHAPE (1) L=0.75 T=4.51 W=4.00 H=0.30
-        T: WISHLIST ITEM — PREVIEW
-           (10.5pt B E8A33D)
-  [28] Shape 26 AUTO_SHAPE (1) L=0.75 T=4.90 W=1.50 H=1.10
-        fill=1D5478
-  [29] Text 27 AUTO_SHAPE (1) L=0.75 T=5.03 W=1.50 H=0.80
-        T: Kurta Set
-           (11.0pt  C7D6E0)
-  [30] Shape 28 AUTO_SHAPE (1) L=2.50 T=4.90 W=2.00 H=0.50
-        fill=E8A33D
-  [31] Text 29 AUTO_SHAPE (1) L=2.50 T=4.90 W=2.00 H=0.50
-        T: Confidence: 87%
-           (12.0pt B 07293E)
-  [32] Shape 30 AUTO_SHAPE (1) L=4.75 T=4.90 W=2.40 H=0.50
-        fill=1D5478
-  [33] Text 31 AUTO_SHAPE (1) L=4.75 T=4.90 W=2.40 H=0.50
-        T: Ask about fit / quality
-           (11.5pt  FFFFFF)
-  [34] Shape 32 AUTO_SHAPE (1) L=7.40 T=4.90 W=2.20 H=0.50
-        fill=1D5478
-  [35] Text 33 AUTO_SHAPE (1) L=7.40 T=4.90 W=2.20 H=0.50
-        T: Compare (2–3 saved)
-           (11.5pt  FFFFFF)
-  [36] Text 34 AUTO_SHAPE (1) L=2.50 T=5.53 W=9.50 H=0.40
-        T: “87% of similar buyers say true to size — based on 214 verified reviews”
-           (11.0pt  C7D6E0)
-  [37] Text 35 AUTO_SHAPE (1) L=0.50 T=6.40 W=8.00 H=0.30
-        T: Deployed MVP: [LINK: Deployed MVP — Tab 2]
-           (11.0pt B 07293E | 11.0pt  B97A1E)
-  [38] Text 36 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [8] TextBox 7 TEXT_BOX (17) L=0.42 T=1.02 W=3.96 H=0.26
+        T: SEGMENT
+           (14.0pt B C46B2F)
+  [9] TextBox 8 TEXT_BOX (17) L=0.42 T=1.28 W=3.96 H=0.94
+        T: 24–30, Tier 1–2, monthly+ fashion. MUST: ≥1 fashion item still on the wishlist and not purchased; “Probably” on a named ethnic/occasion or fashion-forward item. NOT the gate: 5+ items. WPCR is purchase ≥1 wishlisted item in 30 days — one frozen high-intent SKU is enough. 5+ / dormant 2+ weeks = where the freeze is worse, used to filter quotes, not to define the population.
+           (14.0pt  1A1A1A)
+  [10] Rounded Rectangle 9 AUTO_SHAPE (1) L=4.62 T=0.98 W=4.16 H=1.30
+        fill=FFFFFF
+  [11] TextBox 10 TEXT_BOX (17) L=4.72 T=1.02 W=3.96 H=0.26
+        T: PRODUCT OUTCOME
+           (14.0pt B C46B2F)
+  [12] TextBox 11 TEXT_BOX (17) L=4.72 T=1.28 W=3.96 H=0.94
+        T: Decision-confidence rate — funnel stage 3 (confidence resolution). Lift here is how WPCR moves.
+           (14.0pt  1A1A1A)
+  [13] Rounded Rectangle 12 AUTO_SHAPE (1) L=8.92 T=0.98 W=4.16 H=1.30
+        fill=FFFFFF
+  [14] TextBox 13 TEXT_BOX (17) L=9.02 T=1.02 W=3.96 H=0.26
+        T: ROOT CAUSE
+           (14.0pt B C46B2F)
+  [15] TextBox 14 TEXT_BOX (17) L=9.02 T=1.28 W=3.96 H=0.94
+        T: No in-app mechanism at reconsideration to resolve fit, quality-vs-photo, or comparison doubt. Users leave; the loop rarely closes.
+           (14.0pt  1A1A1A)
+  [16] Rounded Rectangle 15 AUTO_SHAPE (1) L=0.32 T=2.36 W=4.16 H=1.30
+        fill=FFFFFF
+  [17] TextBox 16 TEXT_BOX (17) L=0.42 T=2.40 W=3.96 H=0.26
+        T: WORKAROUNDS TODAY
+           (14.0pt B C46B2F)
+  [18] TextBox 17 TEXT_BOX (17) L=0.42 T=2.66 W=3.96 H=0.94
+        T: Order two sizes and return · ask friends · visit stores · search off-app reviews · let the wishlist grow forever.
+           (14.0pt  1A1A1A)
+  [19] Rounded Rectangle 18 AUTO_SHAPE (1) L=4.62 T=2.36 W=4.16 H=1.30
+        fill=FFFFFF
+  [20] TextBox 19 TEXT_BOX (17) L=4.72 T=2.40 W=3.96 H=0.26
+        T: USER VALUE
+           (14.0pt B C46B2F)
+  [21] TextBox 20 TEXT_BOX (17) L=4.72 T=2.66 W=3.96 H=0.94
+        T: Less anxiety, fewer returns, a faster yes-or-no on high-stakes occasion buys.
+           (14.0pt  1A1A1A)
+  [22] Rounded Rectangle 21 AUTO_SHAPE (1) L=8.92 T=2.36 W=4.16 H=1.30
+        fill=FFFFFF
+  [23] TextBox 22 TEXT_BOX (17) L=9.02 T=2.40 W=3.96 H=0.26
+        T: BUSINESS VALUE
+           (14.0pt B C46B2F)
+  [24] TextBox 23 TEXT_BOX (17) L=9.02 T=2.66 W=3.96 H=0.94
+        T: Higher-AOV ethnic demand already saved converts — without discounting.
+           (14.0pt  1A1A1A)
+  [25] TextBox 24 TEXT_BOX (17) L=0.32 T=3.78 W=12.70 H=0.32
+        T: Why this segment: already expressed intent (saved); high cost of being wrong (occasion, returns); in-app at reconsideration; the brief forbids discounts so we cannot buy conversion from price-waiters.
+           (14.0pt B 1E3A5F)
+  [26] TextBox 25 TEXT_BOX (17) L=0.32 T=4.10 W=12.70 H=0.28
+        T: HYPOTHESES
+           (14.0pt B C46B2F)
+  [27] TextBox 26 TEXT_BOX (17) L=0.32 T=4.36 W=12.70 H=0.70
+        T: 1. Review-grounded verdicts on the card beat leaving for Google / YouTube.
+           (14.0pt  1A1A1A)
+        T: 2. Compare 2–3 saved items beats open-ended browsing.
+           (14.0pt  1A1A1A)
+        T: 3. A 30-min prompt (demo) can add urgency without a coupon.  Riskiest: they still will not buy without a physical / photo try-on — that is the named future, not this MVP.
+           (14.0pt  1A1A1A)
+  [28] Table 27 TABLE (19) L=0.32 T=5.08 W=12.70 H=2.00
+        TABLE 6x3
+          | Player / behaviour | What they do | Gap this MVP fills
+          | Status quo | Two sizes + return, friends, YouTube, Instagram | No in-app close on the saved SKU
+          | Amazon / Flipkart | Size charts, Q&A | Not Myntra wishlist; not occasion/threadwork grounded in this listing's reviews
+          | AJIO / Nykaa Fashion | Same wishlist freeze | Same confidence hole
+          | Virtual try-on (paid / studio) | Photo on body | Better for drape; not free here — listed as could-have
+          | This MVP | In-wishlist agent + compare + demo 30-min | Grounded yes/no without money; try-on not shipped
+  [29] Rectangle 28 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [30] TextBox 29 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [39] Text 37 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [31] TextBox 30 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 7
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 8 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: THE MVP: HOW IT SOLVES THIS
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: The MVP closes that gap on the card — without a coupon
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.30
+        T: Problem on slide 7 → solution on the wishlist card. Not a second product tour.  Deployed MVP
+           (14.0pt  4A555C | 14.0pt B 1F4E79)
+  [8] Table 7 TABLE (19) L=0.32 T=1.28 W=7.55 H=4.55
+        TABLE 9x2
+          | Slide 7 cell | MVP response
+          | Root cause: no in-app resolve | Still deciding sits on the wishlist card
+          | Quality vs photo | Reviews for this SKU; proof bullets beside the verdict
+          | Fit | Usual size + Size up, then buy / Need more info
+          | Comparison | Compare 2–3 saved items (hard cap)
+          | Workaround: leave app | Keep the loop on Myntra
+          | Workaround: two sizes | Verdict instead of guessing; returns as guardrail
+          | No urgency | Express demo (secondary, not the hero)
+          | Physical try-on still missing | Honest could-have; not faked
+  [9] Rounded Rectangle 8 AUTO_SHAPE (1) L=8.02 T=1.28 W=5.00 H=2.55
+        fill=F8EEE4
+  [10] TextBox 9 TEXT_BOX (17) L=8.14 T=1.34 W=4.76 H=0.30
+        T: WORKED EXAMPLE
+           (14.0pt B C46B2F)
+  [11] TextBox 10 TEXT_BOX (17) L=8.14 T=1.66 W=4.76 H=2.05
+        T: Verdict: Size up, then buy
+           (14.0pt B 1A1A1A | 14.0pt B 1E3A5F)
+        T: “Go one size up from your usual — this runs a little small.”
+           (14.0pt  1A1A1A)
+        T: From reviews: several reviewers say it runs small and recommend ordering one size up.
+           (14.0pt  1A1A1A)
+        T: Then: Add to bag  or  Still not sure.
+           (14.0pt  1A1A1A)
+  [12] Rounded Rectangle 11 AUTO_SHAPE (1) L=8.02 T=3.96 W=5.00 H=1.87
+        fill=E6EEF4
+  [13] TextBox 12 TEXT_BOX (17) L=8.14 T=4.02 W=4.76 H=0.30
+        T: DELIBERATELY NOT BUILT
+           (14.0pt B 1E3A5F)
+  [14] TextBox 13 TEXT_BOX (17) L=8.14 T=4.34 W=4.76 H=1.40
+        T: No numeric confidence score of any kind.
+           (14.0pt  1A1A1A)
+        T: No personalised fit from the shopper's own order history.
+           (14.0pt  1A1A1A)
+        T: No customer-support chatbot.
+           (14.0pt  1A1A1A)
+        T: Thin evidence → Too few reviews / Need more info — never guesses.
+           (14.0pt  1A1A1A)
+  [15] Rounded Rectangle 14 AUTO_SHAPE (1) L=0.32 T=5.96 W=12.70 H=1.12
         fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: SUCCESS METRICS
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: WPCR + resolution rate + return/wishlist-add guardrails
-           (22.0pt B 07293E)
-  [5] Shape 3 AUTO_SHAPE (1) L=0.50 T=1.55 W=12.30 H=0.85
-        fill=07293E
-  [6] Text 4 AUTO_SHAPE (1) L=0.75 T=1.68 W=2.00 H=0.30
-        T: NORTH STAR
-           (10.5pt B E8A33D)
-  [7] Text 5 AUTO_SHAPE (1) L=0.75 T=1.95 W=11.80 H=0.40
-        T: WPCR — 30-day wishlist-to-purchase conversion
-           (14.5pt B FFFFFF)
-  [8] Shape 6 AUTO_SHAPE (1) L=0.50 T=2.65 W=6.00 H=1.50
-        fill=E8A33D
-  [9] Text 7 AUTO_SHAPE (1) L=0.75 T=2.80 W=5.50 H=0.30
-        T: PRIMARY PRODUCT METRIC
-           (10.5pt B 07293E)
-  [10] Text 8 AUTO_SHAPE (1) L=0.75 T=3.10 W=5.50 H=0.40
-        T: Decision Confidence Rate
-           (16.0pt B 07293E)
-  [11] Text 9 AUTO_SHAPE (1) L=0.75 T=3.52 W=5.50 H=0.55
-        T: % of assistant interactions ending in add-to-cart, a “this helped” signal, or a clear decide-no
-           (12.0pt  07293E)
-  [12] Shape 10 AUTO_SHAPE (1) L=6.80 T=2.65 W=6.00 H=1.50
-        fill=F4F7F9
-  [13] Text 11 AUTO_SHAPE (1) L=7.05 T=2.80 W=5.50 H=0.30
-        T: LEADING INDICATOR
-           (10.5pt B B97A1E)
-  [14] Text 12 AUTO_SHAPE (1) L=7.05 T=3.10 W=5.50 H=0.40
-        T: Assistant Engagement Rate
-           (16.0pt B 07293E)
-  [15] Text 13 AUTO_SHAPE (1) L=7.05 T=3.52 W=5.50 H=0.55
-        T: % of wishlist visits where the tool is opened
-           (12.0pt  5C6B73)
-  [16] Text 14 AUTO_SHAPE (1) L=0.50 T=4.40 W=4.00 H=0.30
-        T: GUARDRAILS
-           (11.0pt B 07293E)
-  [17] Shape 15 AUTO_SHAPE (1) L=0.50 T=4.75 W=3.85 H=1.05
-        fill=F4F7F9
-  [18] Text 16 AUTO_SHAPE (1) L=0.68 T=4.88 W=3.50 H=0.40
-        T: Return rate
-           (12.5pt B 07293E)
-  [19] Text 17 AUTO_SHAPE (1) L=0.68 T=5.28 W=3.50 H=0.40
-        T: Must not increase
-           (11.5pt  5C6B73)
-  [20] Shape 18 AUTO_SHAPE (1) L=4.50 T=4.75 W=3.85 H=1.05
-        fill=F4F7F9
-  [21] Text 19 AUTO_SHAPE (1) L=4.68 T=4.88 W=3.50 H=0.40
-        T: Wishlist-add rate
-           (12.5pt B 07293E)
-  [22] Text 20 AUTO_SHAPE (1) L=4.68 T=5.28 W=3.50 H=0.40
-        T: Must not decrease
-           (11.5pt  5C6B73)
-  [23] Shape 21 AUTO_SHAPE (1) L=8.50 T=4.75 W=3.85 H=1.05
-        fill=F4F7F9
-  [24] Text 22 AUTO_SHAPE (1) L=8.68 T=4.88 W=3.50 H=0.40
-        T: Fit/quality support contacts
-           (12.5pt B 07293E)
-  [25] Text 23 AUTO_SHAPE (1) L=8.68 T=5.28 W=3.50 H=0.40
-        T: Expected to decrease
-           (11.5pt  5C6B73)
-  [26] Shape 24 AUTO_SHAPE (1) L=0.50 T=6.00 W=12.15 H=0.55
-        fill=FCEFDA
-  [27] Text 25 AUTO_SHAPE (1) L=0.70 T=6.00 W=11.80 H=0.55
-        T: Context-only note: for once-a-month shoppers, also watch revisit rate as background context — not the MVP's job.
-           (11.0pt  07293E)
-  [28] Text 26 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [16] TextBox 15 TEXT_BOX (17) L=0.48 T=6.04 W=12.40 H=0.96
+        T: Golden thread: WPCR → stage-3 decision confidence → discovery ranks quality/fit in and price out → research confirms confidence for intenders → in-wishlist assistant (+ compare, + demo 30-min). Express is a secondary urgency nudge. Try-on is named, not shipped.
+           (14.0pt  1A1A1A)
+  [17] Rectangle 16 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [18] TextBox 17 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [29] Text 27 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [19] TextBox 18 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 8
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 9 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
-        fill=FFFFFF
-  [3] Text 1 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: RISKS & MITIGATION
-           (11.0pt B B97A1E)
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: De-risk cold start, hallucination, trust, hiding, compare-overload
-           (22.0pt B 07293E)
-  [5] Text 3 AUTO_SHAPE (1) L=0.65 T=1.65 W=2.40 H=0.66
-        T: Cold start
-           (13.0pt B 07293E)
-  [6] Text 4 AUTO_SHAPE (1) L=3.10 T=1.65 W=3.90 H=0.66
-        T: New/low-review ethnic items lack data
-           (11.5pt  5C6B73)
-  [7] Text 5 AUTO_SHAPE (1) L=7.15 T=1.65 W=5.50 H=0.66
-        T: Fallback to brand-level size charts and community Q&A
-           (11.5pt  1A1A1A)
-  [8] Shape 6 AUTO_SHAPE (1) L=0.50 T=2.41 W=12.30 H=0.86
-        fill=F4F7F9
-  [9] Text 7 AUTO_SHAPE (1) L=0.65 T=2.51 W=2.40 H=0.66
-        T: AI hallucination
-           (13.0pt B 07293E)
-  [10] Text 8 AUTO_SHAPE (1) L=3.10 T=2.51 W=3.90 H=0.66
-        T: Wrong fit/quality claims erode trust
-           (11.5pt  5C6B73)
-  [11] Text 9 AUTO_SHAPE (1) L=7.15 T=2.51 W=5.50 H=0.66
-        T: Ground answers strictly in real review/return text; show provenance; use confidence caveats, not absolute claims
-           (11.5pt  1A1A1A)
-  [12] Text 10 AUTO_SHAPE (1) L=0.65 T=3.37 W=2.40 H=0.66
-        T: AI-only distrust
-           (13.0pt B 07293E)
-  [13] Text 11 AUTO_SHAPE (1) L=3.10 T=3.37 W=3.90 H=0.66
-        T: Users don't trust a single AI summary
-           (11.5pt  5C6B73)
-  [14] Text 12 AUTO_SHAPE (1) L=7.15 T=3.37 W=5.50 H=0.66
-        T: Show real user reviews alongside the AI summary, never AI-only
-           (11.5pt  1A1A1A)
-  [15] Shape 13 AUTO_SHAPE (1) L=0.50 T=4.13 W=12.30 H=0.86
-        fill=F4F7F9
-  [16] Text 14 AUTO_SHAPE (1) L=0.65 T=4.23 W=2.40 H=0.66
-        T: Low discoverability
-           (13.0pt B 07293E)
-  [17] Text 15 AUTO_SHAPE (1) L=3.10 T=4.23 W=3.90 H=0.66
-        T: Feature goes unused if buried
-           (11.5pt  5C6B73)
-  [18] Text 16 AUTO_SHAPE (1) L=7.15 T=4.23 W=5.50 H=0.66
-        T: Embed directly inside the wishlist card, not a separate section
-           (11.5pt  1A1A1A)
-  [19] Text 17 AUTO_SHAPE (1) L=0.65 T=5.09 W=2.40 H=0.66
-        T: Compare-overload
-           (13.0pt B 07293E)
-  [20] Text 18 AUTO_SHAPE (1) L=3.10 T=5.09 W=3.90 H=0.66
-        T: Too many options re-creates decision fatigue
-           (11.5pt  5C6B73)
-  [21] Text 19 AUTO_SHAPE (1) L=7.15 T=5.09 W=5.50 H=0.66
-        T: Hard cap at 2–3 saved similar items
-           (11.5pt  1A1A1A)
-  [22] Shape 20 AUTO_SHAPE (1) L=0.50 T=6.00 W=12.30 H=0.55
-        fill=07293E
-  [23] Text 21 AUTO_SHAPE (1) L=0.75 T=6.00 W=11.80 H=0.55
-        T: Constraint carried through every mitigation: never a discount, coupon, or cashback tool.
-           (12.0pt B E8A33D)
-  [24] Text 22 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: HOW WE’LL KNOW IT’S WORKING
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: WPCR is the outcome; engagement, resolution, and guardrails tell us it’s real
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.30
+        T: Each metric has a definition, what it measures, and why it was chosen. No invented target percentages.
+           (14.0pt  4A555C)
+  [8] Table 7 TABLE (19) L=0.22 T=1.26 W=12.90 H=5.80
+        TABLE 8x5
+          | Type | Metric | Definition | What it measures | Why we chose it
+          | North star | WPCR | % of users who purchase ≥1 item that was on their wishlist, within 30 days of the add | The brief’s business outcome | Every slide exists to move this, without money
+          | Leading | Assistant engagement | % of in-scope wishlist sessions that open Still deciding / Compare / Express check | Whether the tool is found at hesitation | If they never open it, WPCR cannot move via this lever
+          | Leading | Resolution rate | % of uses that end in add-to-bag, explicit “this helped”, or a clear decide-not-to-buy | Doubt actually closed | A confident no is a success (better than freeze)
+          | Leading | Express attach (eligible pins only) | % of eligible pin checks that bag as Express | Whether urgency works without a coupon | Optional; must not outrank confidence
+          | Guardrail | Return rate (fit/quality SKUs) | Returns ÷ orders on items that used the assistant | False confidence | A wrong “Go for it” would show up here
+          | Guardrail | Wishlist-add rate | Adds to wishlist per session / user | Saving behaviour | Tool should resolve doubt, not scare people off saving
+          | Guardrail | Fit / quality support contacts | Contacts tagged fit or fabric/photo | Whether in-app answers absorb those questions | Expected to fall if the assistant works
+  [9] Rectangle 8 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [10] TextBox 9 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [25] Text 23 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [11] TextBox 10 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 9
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
 ===== SLIDE 10 =====
-  [2] Shape 0 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
-        fill=07293E
-  [3] Shape 1 AUTO_SHAPE (1) L=-1.50 T=-1.50 W=5.00 H=5.00
-        fill=0B3D5C
-  [4] Text 2 AUTO_SHAPE (1) L=0.50 T=0.35 W=12.33 H=0.30
-        T: RECAP
-           (11.0pt B E8A33D)
-  [5] Text 3 AUTO_SHAPE (1) L=0.50 T=0.62 W=12.33 H=0.90
-        T: Recap + artefact links
-           (26.0pt B FFFFFF)
-  [6] Text 4 AUTO_SHAPE (1) L=0.70 T=1.70 W=11.50 H=1.30
-        T: Resolve fit, quality (photo vs. real fabric/threadwork), and comparison doubt at hesitation on high-AOV ethnic/forward saved items, for shoppers who buy at least monthly — lifting decision-confidence rate and WPCR without touching price.
-           (16.0pt  E3ECF2)
-  [7] Shape 5 AUTO_SHAPE (1) L=0.70 T=3.50 W=11.50 H=0.85
-        fill=0B3D5C
-  [8] Text 6 AUTO_SHAPE (1) L=0.95 T=3.63 W=3.00 H=0.30
-        T: AI DISCOVERY ENGINE
-           (10.5pt B E8A33D)
-  [9] Text 7 AUTO_SHAPE (1) L=0.95 T=3.92 W=10.90 H=0.35
-        T: [LINK: AI Discovery Engine — Streamlit Tab 1]
-           (13.0pt  FFFFFF)
-  [10] Shape 8 AUTO_SHAPE (1) L=0.70 T=4.55 W=11.50 H=0.85
-        fill=0B3D5C
-  [11] Text 9 AUTO_SHAPE (1) L=0.95 T=4.68 W=3.00 H=0.30
-        T: DEPLOYED MVP
-           (10.5pt B E8A33D)
-  [12] Text 10 AUTO_SHAPE (1) L=0.95 T=4.97 W=10.90 H=0.35
-        T: [LINK: Deployed MVP — Tab 2]
-           (13.0pt  FFFFFF)
-  [13] Shape 11 AUTO_SHAPE (1) L=0.70 T=5.60 W=11.50 H=0.85
-        fill=0B3D5C
-  [14] Text 12 AUTO_SHAPE (1) L=0.95 T=5.73 W=3.00 H=0.30
-        T: PRIMARY RESEARCH
-           (10.5pt B E8A33D)
-  [15] Text 13 AUTO_SHAPE (1) L=0.95 T=6.02 W=10.90 H=0.35
-        T: [LINK: Google Form viewform]
-           (13.0pt  FFFFFF)
-  [16] Text 14 AUTO_SHAPE (1) L=0.50 T=7.10 W=6.00 H=0.30
+  [2] Rectangle 1 AUTO_SHAPE (1) L=0.00 T=0.00 W=13.33 H=7.50
+        fill=F7F5F1
+  [3] Rectangle 2 AUTO_SHAPE (1) L=0.00 T=0.00 W=0.12 H=7.50
+        fill=1E3A5F
+  [4] TextBox 3 TEXT_BOX (17) L=0.32 T=0.08 W=12.70 H=0.28
+        T: RISKS AND HOW WE’D DE-RISK THEM
+           (14.0pt B C46B2F)
+  [5] TextBox 4 TEXT_BOX (17) L=0.32 T=0.32 W=12.70 H=0.55
+        T: Solution-specific risks, and the steps already shipped to de-risk them
+           (14.0pt B 1E3A5F)
+  [6] Rectangle 5 AUTO_SHAPE (1) L=0.32 T=0.90 W=12.70 H=0.01
+        fill=C46B2F
+  [7] TextBox 6 TEXT_BOX (17) L=0.32 T=0.94 W=12.70 H=0.28
+        T: Most guardrails are already shipped; discoverability and try-on are planned. Standing constraint: never a discount, coupon, or cashback tool.
+           (14.0pt  4A555C)
+  [8] Table 7 TABLE (19) L=0.22 T=1.24 W=12.90 H=5.82
+        TABLE 8x4
+          | Risk | Why it matters | Mitigation steps | Status
+          | Hallucinated fit / quality | Wrong buy → returns (guardrail) | Writer sees only supplied reviews; discovery figures verified vs aggregate; discard unsupported counts; offline fallback shows closest reviews, no fake verdict | SHIPPED
+          | Thin evidence on new SKUs | Guessing is worse than freeze | Badge Too few reviews; verdict Need more info; demo includes a thin-review item | SHIPPED
+          | Distrust of “AI” | They will not use it | Proof bullets from real reviews beside every answer | SHIPPED
+          | Comparison overload | More freeze | Hard cap 2–3 items | SHIPPED
+          | Buried in a hub | Engagement leading stays ~0 | Embed on the wishlist card at hesitation, not a separate hub | PLANNED
+          | 30-min read as live ops | Credibility hit | Copy + data = demo hubs/prefixes; ineligible pin or missing size → standard delivery | SHIPPED (demo)
+          | Need physical try-on | Riskiest hypothesis | Do not fake try-on; name it as next if a free/good model exists | PLANNED
+  [9] Rectangle 8 AUTO_SHAPE (1) L=0.00 T=7.22 W=13.33 H=0.28
+        fill=1E3A5F
+  [10] TextBox 9 TEXT_BOX (17) L=0.28 T=7.22 W=10.20 H=0.28
         T: Product Manager, Growth Team
-           (10.0pt  5C6B73)
-  [17] Text 15 AUTO_SHAPE (1) L=12.33 T=7.10 W=0.50 H=0.30
+           (14.0pt B FFFFFF)
+  [11] TextBox 10 TEXT_BOX (17) L=11.40 T=7.22 W=1.65 H=0.28
         T: 10
-           (10.0pt  5C6B73)
+           (14.0pt B FFFFFF)
 
-ALL FONT SIZES USED: [9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 16.0, 19.0, 22.0, 26.0, 40.0]
+ALL FONT SIZES USED: [14.0]

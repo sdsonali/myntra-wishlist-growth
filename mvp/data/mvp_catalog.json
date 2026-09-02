@@ -1,5 +1,19 @@
 {
-  "note": "Demo wishlist catalog for the Fit & Confidence Assistant. Reviews are representative ethnic-wear patterns (fit, fabric/threadwork, occasion) — not live-scraped SKUs.",
+  "note": "Demo wishlist catalog for the Fit & Confidence Assistant. Reviews are representative ethnic-wear patterns (fit, fabric/threadwork, occasion) — not live-scraped SKUs. express_hubs is a lookup table for the optional 30-min prompt — not live logistics.",
+  "express_hubs": [
+    {"city": "Bengaluru", "hub": "Indiranagar dark store", "prefixes": ["560", "561", "562"]},
+    {"city": "Mumbai", "hub": "Fort dark store", "prefixes": ["400", "401", "410", "421"]},
+    {"city": "Delhi NCR", "hub": "Connaught Place dark store", "prefixes": ["110", "122", "201"]},
+    {"city": "Pune", "hub": "Koregaon Park dark store", "prefixes": ["411"]},
+    {"city": "Hyderabad", "hub": "Banjara Hills dark store", "prefixes": ["500"]},
+    {"city": "Chennai", "hub": "T Nagar dark store", "prefixes": ["600"]},
+    {"city": "Kolkata", "hub": "Park Street dark store", "prefixes": ["700"]},
+    {"city": "Ahmedabad", "hub": "Navrangpura dark store", "prefixes": ["380"]},
+    {"city": "Jaipur", "hub": "C Scheme dark store", "prefixes": ["302"]},
+    {"city": "Chandigarh", "hub": "Sector 17 dark store", "prefixes": ["160"]},
+    {"city": "Lucknow", "hub": "Hazratganj dark store", "prefixes": ["226"]},
+    {"city": "Kochi", "hub": "MG Road dark store", "prefixes": ["682"]}
+  ],
   "products": [
     {
       "id": "rakhi_anarkali",
@@ -28,7 +42,10 @@
         "Return exchange was easy when M was tight. L fit well.",
         "Would buy again for festive days. Sizing is mostly honest."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": true,
+      "express_sizes": ["M", "L"],
+      "express_stock": {"M": 5, "L": 3}
     },
     {
       "id": "wedding_gown",
@@ -56,7 +73,10 @@
         "Photos from buyers similar to my height helped more than the size chart.",
         "Returned the first colour. This wine one matches occasion better."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": true,
+      "express_sizes": ["M", "L"],
+      "express_stock": {"M": 2, "L": 1}
     },
     {
       "id": "kurta_set_teal",
@@ -84,7 +104,10 @@
         "I almost did not buy because of quality reviews. In hand it was acceptable.",
         "Exchange worked when palazzo waist was huge. They sent a smaller set."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": true,
+      "express_sizes": ["M"],
+      "express_stock": {"M": 7}
     },
     {
       "id": "silk_kurta",
@@ -110,7 +133,10 @@
         "Office festive Friday yes. Wedding guest maybe too plain.",
         "Smell of new fabric took one wash to go."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": true,
+      "express_sizes": ["M", "L"],
+      "express_stock": {"M": 4, "L": 4}
     },
     {
       "id": "co_ord_top",
@@ -134,7 +160,9 @@
         "Would not gift this without knowing their style. Too fashion-forward.",
         "Returned because it did not match the occasion I had in mind (cousin function)."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": false,
+      "express_sizes": []
     },
     {
       "id": "block_heels",
@@ -157,7 +185,9 @@
         "Not for all-day walking. Fine for indoor wedding.",
         "Look cheaper in fluorescent light, fine in evening photos."
       ],
-      "in_stock": true
+      "in_stock": true,
+      "express_eligible": false,
+      "express_sizes": []
     },
     {
       "id": "new_lehenga",
@@ -174,7 +204,9 @@
         "Can't comment on wash yet. Threadwork looks dense in the one photo I took.",
         "Size chart only. No similar-buyer photos yet."
       ],
-      "in_stock": false
+      "in_stock": false,
+      "express_eligible": false,
+      "express_sizes": []
     }
   ]
 }

@@ -25,7 +25,6 @@ myntra-wishlist-growth/
 │   ├── assistant.py
 │   └── data/              # product catalog + images
 ├── shared/                # config + LLM client
-├── deck/                  # slide decks / exports
 ├── survey/                # interview / form helpers
 └── tools/                 # optional binaries (e.g. cloudflared)
 ```

@@ -1,195 +1,416 @@
-function myFunction() {
-  var form = FormApp.create('Wishlist shopping decisions');
+/**
+ * Myntra wishlist — primary research form (dormant / unsold items).
+ *
+ * Segment: monthly+ fashion shoppers who still have wishlist items they have
+ * not purchased. Part 3 of the brief is about what is stopping conversion,
+ * so the interview item must be sitting on the wishlist — not one they already bought.
+ *
+ * The "purchased a wishlisted item in the last 30 days" question is diagnostic
+ * only. Both Yes and No continue. Do not use it as a gate.
+ *
+ * HOW TO UPDATE THE LIVE FORM (same URL as the deck):
+ * 1. https://script.google.com → New project (or the script already bound to the form)
+ * 2. Paste this file → Save
+ * 3. Run rebuildExistingDormantForm — this wipes questions on
+ *    form ID 1pAxwhdTkoDF-I8U6HfzbnQ91UW9nkpmxIaEo9-qTEvQ and rebuilds them.
+ *    Old responses stay in the linked Sheet but will not match the new columns.
+ * 4. Approve FormApp permissions if asked → Logs should print the same live URL.
+ *
+ * HOW TO CREATE A BRAND-NEW FORM INSTEAD:
+ * Run createDormantWishlistInterviewForm (new URL — then update the deck).
+ *
+ * Do NOT import responses/Wishlist shopping decisions.csv — those rows are a
+ * synthetic converter pilot tied to the MVP catalog, not this screener.
+ */
+
+var LIVE_FORM_ID = '1pAxwhdTkoDF-I8U6HfzbnQ91UW9nkpmxIaEo9-qTEvQ';
+
+function createDormantWishlistInterviewForm() {
+  var form = FormApp.create('Myntra wishlist — items you saved but have not bought');
+  buildDormantInterviewForm_(form);
+  Logger.log('Live form: ' + form.getPublishedUrl());
+  Logger.log('Edit form: ' + form.getEditUrl());
+}
+
+/**
+ * Rebuilds the existing published form in place so the viewform / edit URLs
+ * in the deck do not change.
+ */
+function rebuildExistingDormantForm() {
+  var form = FormApp.openById(LIVE_FORM_ID);
+  clearFormItems_(form);
+  form.setTitle('Myntra wishlist — items you saved but have not bought');
+  form.setConfirmationMessage(
+    'Thanks. If you ticked the follow-up chat, we may email you for a 15–20 min call.'
+  );
+  buildDormantInterviewForm_(form);
+  Logger.log('Rebuilt form ' + LIVE_FORM_ID);
+  Logger.log('Live form: ' + form.getPublishedUrl());
+  Logger.log('Edit form: ' + form.getEditUrl());
+}
+
+/**
+ * Page-branching choices cannot be deleted until go-to-page is cleared.
+ * "Invalid data updating form" is what Google throws if you skip that.
+ */
+function clearFormItems_(form) {
+  var items = form.getItems();
+  var i;
+  var item;
+  var type;
+  var choices;
+  var values;
+  var j;
+
+  for (i = 0; i < items.length; i++) {
+    item = items[i];
+    type = item.getType();
+    if (type === FormApp.ItemType.PAGE_BREAK) {
+      try {
+        item.asPageBreakItem().setGoToPage(FormApp.PageNavigationType.CONTINUE);
+      } catch (e1) {}
+    }
+    if (type === FormApp.ItemType.MULTIPLE_CHOICE) {
+      choices = item.asMultipleChoiceItem().getChoices();
+      values = [];
+      for (j = 0; j < choices.length; j++) {
+        values.push(choices[j].getValue());
+      }
+      if (values.length) {
+        item.asMultipleChoiceItem().setChoiceValues(values);
+      }
+    }
+  }
+
+  items = form.getItems();
+  for (i = items.length - 1; i >= 0; i--) {
+    try {
+      form.deleteItem(items[i]);
+    } catch (e2) {}
+  }
+
+  items = form.getItems();
+  for (i = items.length - 1; i >= 0; i--) {
+    form.deleteItem(i);
+  }
+}
+
+/** @deprecated Use createDormantWishlistInterviewForm */
+function createMvpWishlistInterviewForm() {
+  createDormantWishlistInterviewForm();
+}
+
+function buildDormantInterviewForm_(form) {
   form.setProgressBar(true);
   form.setShowLinkToRespondAgain(false);
   form.setAllowResponseEdits(false);
   form.setDescription(
-    'Takes about 3–4 minutes. We will ask about one specific item currently sitting in your wishlist — not shopping in general.\n\n' +
-    'There is no sales pitch. This helps us understand how people decide whether to buy saved items.'
+    'Takes about 6–8 minutes. We are studying why fashion items sit on a wishlist ' +
+      'without being purchased.\n\n' +
+    'There is no sales pitch. Please answer about ONE specific item that is still ' +
+      'on your wishlist (Myntra or similar) and that you have not bought. Use that ' +
+      'same item for every question.\n\n' +
+    'If you have several sitting there, pick the one you were most likely to buy.'
   );
 
-  var q1 = form.addMultipleChoiceItem()
-    .setTitle('How often do you shop for fashion/clothing online?')
+  // --- Page 1: frequency ---
+  var qFreq = form.addMultipleChoiceItem()
+    .setTitle('How often do you shop for fashion/clothing online on apps like Myntra?')
     .setRequired(true);
 
-  var sQ2 = form.addPageBreakItem().setTitle('Your wishlist');
+  var sUnsold = form.addPageBreakItem()
+    .setTitle('Items still on your wishlist')
+    .setHelpText(
+      'We need people who still have at least one saved item they have not purchased.'
+    );
 
-  var q2 = form.addMultipleChoiceItem()
-    .setTitle('Roughly how many items are currently in your wishlist across shopping apps?')
-    .setRequired(true);
-
-  var sQ3 = form.addPageBreakItem().setTitle('Older saved items');
-
-  var q3 = form.addMultipleChoiceItem()
-    .setTitle("Do you have anything in your wishlist that you added 2+ weeks ago and still haven't purchased?")
+  var qUnsold = form.addMultipleChoiceItem()
+    .setTitle(
+      'Do you currently have at least one fashion item on a wishlist that you have ' +
+      'not purchased?'
+    )
     .setRequired(true);
 
   var sExit = form.addPageBreakItem()
     .setTitle('Thanks for your time')
     .setHelpText(
-      'This survey is for people who shop for fashion online at least once a month, ' +
-      'have 10+ items in a wishlist, and still have something they saved 2+ weeks ago. ' +
-      "You're not in that group right now — no further questions."
+      'This interview is for shoppers who still have unsold wishlist items. ' +
+      'You are not in that segment right now.'
     );
   sExit.setGoToPage(FormApp.PageNavigationType.SUBMIT);
 
-  var sMain = form.addPageBreakItem()
-    .setTitle('One specific item')
+  // --- About you (captures the segment; does not exit) ---
+  var sAbout = form.addPageBreakItem()
+    .setTitle('About you')
     .setHelpText(
-      'Pick ONE item currently sitting in your wishlist. Every question after this is about that same item — not wishlists in general.'
+      'These questions let us check whether you match the segment we designed for. ' +
+      'Please answer all of them — blank answers made the last screener unusable.'
     );
 
-  form.addParagraphTextItem()
-    .setTitle('Think of ONE specific item currently sitting in your wishlist. What is it?')
-    .setHelpText('e.g. a kurta, sneakers, a dress for a wedding')
+  form.addMultipleChoiceItem()
+    .setTitle('Your age')
+    .setChoiceValues(['18–23', '24–30', '31–35', '36 or older'])
     .setRequired(true);
 
   form.addMultipleChoiceItem()
-    .setTitle('Roughly how long ago did you add it to your wishlist?')
-    .setChoiceValues(['Less than a week', '1-2 weeks', '2-4 weeks', '1 month+'])
+    .setTitle('Where do you live?')
+    .setChoiceValues([
+      'Tier 1 city (e.g. Mumbai, Delhi NCR, Bengaluru, Hyderabad, Chennai, Kolkata, Pune)',
+      'Tier 2 city',
+      'Tier 3 or smaller town',
+      'Outside India'
+    ])
     .setRequired(true);
 
+  form.addMultipleChoiceItem()
+    .setTitle('Roughly how many items are on your fashion wishlist right now?')
+    .setChoiceValues(['1–4', '5–10', '11–25', 'More than 25'])
+    .setRequired(true);
+
+  form.addMultipleChoiceItem()
+    .setTitle('Do you have several wishlist items that have been sitting there for 2+ weeks?')
+    .setChoiceValues(['Yes, several', 'Yes, one or two', 'No — most were saved recently', 'Not sure'])
+    .setRequired(true);
+
+  // --- Diagnostic: WPCR-positive is allowed, but is not the interview item ---
+  var sWpcr = form.addPageBreakItem()
+    .setTitle('Recent purchases (for context)')
+    .setHelpText(
+      'Either answer is fine. The next pages are still about an item you have NOT bought.'
+    );
+
+  form.addMultipleChoiceItem()
+    .setTitle(
+      'In the last 30 days, did you purchase at least one item that had been on your ' +
+      'wishlist before you bought it?'
+    )
+    .setChoiceValues(['Yes', 'No'])
+    .setRequired(true);
+
+  // --- The frozen item ---
+  var sItem = form.addPageBreakItem()
+    .setTitle('The item that is still sitting there')
+    .setHelpText(
+      'Pick ONE item you saved and have not purchased. Prefer ethnic, occasion, or ' +
+      'fashion-forward clothing if you have one. Every question below is about that item.'
+    );
+
+  form.addParagraphTextItem()
+    .setTitle('What is the item? (brand + product type + occasion if relevant)')
+    .setHelpText('e.g. Libas peach anarkali for a family function; wine sequin gown for a wedding guest')
+    .setRequired(true);
+
+  form.addMultipleChoiceItem()
+    .setTitle('What kind of item is this?')
+    .setChoiceValues([
+      'Ethnic / occasion wear',
+      'Fashion-forward / western (not basics)',
+      'Basics / everyday',
+      'Footwear or accessories',
+      'Other'
+    ])
+    .setRequired(true);
+
+  form.addMultipleChoiceItem()
+    .setTitle('How long has this item been on your wishlist?')
+    .setChoiceValues([
+      'Less than 7 days',
+      '7–14 days',
+      '15–21 days',
+      '22–30 days',
+      'More than 30 days'
+    ])
+    .setRequired(true);
+
+  // --- Why saved ---
   form.addPageBreakItem()
     .setTitle('Why you saved it')
-    .setHelpText('Still thinking about the same item you just named.');
+    .setHelpText('Same item as above.');
 
   form.addCheckboxItem()
     .setTitle('Why did you save this item to your wishlist? (Select all that apply)')
     .setChoiceValues([
       'I liked how it looked',
-      'Waiting for the price to drop',
-      "Wasn't sure if I needed it",
-      'Wanted to think it over',
       'Saving it for a specific occasion',
-      'Comparing it with other options'
+      'Wanted to think it over before spending',
+      'Comparing it with other options on my wishlist',
+      "Wasn't sure if I needed it yet",
+      'Waiting for the price to drop',
+      'Mostly bookmarking — no real plan to buy'
     ])
     .showOtherOption(true)
     .setRequired(true);
 
+  // --- Intent: then vs now ---
   form.addPageBreakItem()
-    .setTitle('Do you still want it?')
-    .setHelpText('Same item as before.');
+    .setTitle('Do you still intend to buy it?')
+    .setHelpText('Same item.');
 
   form.addMultipleChoiceItem()
-    .setTitle('Do you still intend to buy it?')
-    .setChoiceValues(['Yes, definitely', 'Probably', 'Not sure anymore', "No, I've lost interest"])
+    .setTitle('When you first saved it, did you intend to buy it eventually?')
+    .setChoiceValues([
+      'Yes, definitely',
+      'Probably',
+      'Not sure',
+      'No — mostly bookmarking'
+    ])
     .setRequired(true);
 
+  form.addMultipleChoiceItem()
+    .setTitle('Do you still intend to purchase THIS item?')
+    .setChoiceValues([
+      'Yes, definitely',
+      'Probably — still have some doubt',
+      'Not sure — might drop it',
+      'No — it is just sitting there / I have moved on'
+    ])
+    .setRequired(true);
+
+  // --- What is stopping them now ---
   form.addPageBreakItem()
-    .setTitle("What's stopping you")
-    .setHelpText('Same item as before.');
+    .setTitle('What is stopping you')
+    .setHelpText('Think about right now, not what might have stopped you in the past.');
 
   form.addMultipleChoiceItem()
-    .setTitle('What is the MAIN thing stopping you from buying it right now? (Select one)')
+    .setTitle('What is the MAIN thing stopping you from buying it now? (Select one)')
     .setChoiceValues([
       "Not sure it'll fit me",
-      'Not sure about the quality',
-      'Comparing it with similar items elsewhere',
-      'Waiting for a better price',
-      "Just haven't gotten around to it",
-      'Not sure it suits the occasion/my style'
+      'Not sure about quality (fabric, threadwork, photo vs real product)',
+      'Comparing it with similar items on my wishlist or other apps',
+      'Not sure it suits the occasion or my style',
+      'Waiting for a better price or salary',
+      'Just keep putting it off — no single reason'
     ])
     .showOtherOption(true)
     .setRequired(true);
 
   form.addParagraphTextItem()
-    .setTitle('Is there anything else adding to your hesitation, beyond the main reason above?')
+    .setTitle('Anything else that adds to your hesitation?')
     .setRequired(false);
 
+  // --- What would make them buy + info still needed ---
   form.addPageBreakItem()
-    .setTitle('What would resolve it')
-    .setHelpText('Same item as before.');
+    .setTitle('What would unstick you')
+    .setHelpText('Same item. This is about the next 30 days, not a past purchase.');
 
   form.addCheckboxItem()
-    .setTitle('What would make you go ahead and buy it? (Select all that apply)')
-    .setChoiceValues([
-      'More reviews/photos from real buyers similar to me',
-      "A clearer idea of how it'll fit",
-      'Confirmation it suits the occasion I have in mind',
-      'Comparing it directly with alternatives',
-      'Seeing someone I trust wear/recommend it',
-      "Nothing — I've decided not to buy it"
-    ])
-    .showOtherOption(true)
-    .setRequired(true);
-
-  form.addParagraphTextItem()
-    .setTitle('What specific information do you wish you had before deciding?')
-    .setRequired(true);
-
-  form.addPageBreakItem()
-    .setTitle('Alternatives')
-    .setHelpText('Same item as before.');
-
-  form.addMultipleChoiceItem()
-    .setTitle('Are you considering buying something else instead of this exact item?')
-    .setChoiceValues([
-      'Yes, a similar item on the same app',
-      'Yes, something from a different app/store',
-      "No, it's this item or nothing",
-      "Haven't thought about alternatives"
-    ])
-    .setRequired(true);
-
-  form.addCheckboxItem()
-    .setTitle('Before deciding on an item like this, do you do anything outside the app? (Select all that apply)')
-    .setChoiceValues([
-      'Search for reviews on Google/YouTube',
-      'Ask a friend or family member',
-      'Check Instagram/influencers for styling ideas',
-      'Compare prices on other sites',
-      'Visit a physical store',
-      'Nothing, I decide within the app'
-    ])
-    .showOtherOption(true)
-    .setRequired(true);
-
-  form.addPageBreakItem()
-    .setTitle('How you deal with uncertainty')
-    .setHelpText('Same item as before.');
-
-  form.addParagraphTextItem()
-    .setTitle('How do you currently deal with this kind of uncertainty, if at all?')
-    .setHelpText('e.g. I just order 2 sizes and return one; I wait and see if reviews improve; I ask friends')
-    .setRequired(true);
-
-  form.addPageBreakItem().setTitle('Optional follow-up');
-
-  var q15 = form.addMultipleChoiceItem()
     .setTitle(
-      'Would you be open to a quick 15-20 min chat about your shopping habits? (We will keep it casual, no sales pitch.)'
+      'What would make you purchase this item in the next 30 days? (Select all that apply)'
+    )
+    .setChoiceValues([
+      'Reviews or photos from buyers similar to me (height, size, occasion)',
+      'A clearer answer on fit / sizing (e.g. runs small, true to size)',
+      'Confirmation the fabric / threadwork looks like the photo',
+      'Confirmation it suits the occasion I have in mind',
+      'Finishing a comparison against 2–3 saved alternatives',
+      'Friend or family validation',
+      'An event deadline I cannot keep waiting on',
+      'A better price (we cannot offer this — still tell us if it is the real gate)'
+    ])
+    .showOtherOption(true)
+    .setRequired(true);
+
+  form.addParagraphTextItem()
+    .setTitle('What specific information do you still need before you would decide yes or no?')
+    .setHelpText(
+      'e.g. real fabric feel, embroidery quality, fit for your size, occasion appropriateness'
     )
     .setRequired(true);
 
-  var sContact = form.addPageBreakItem().setTitle('How can we reach you?');
-
-  form.addTextItem()
-    .setTitle('Email or phone number')
+  // --- Alternatives ---
+  form.addMultipleChoiceItem()
+    .setTitle('Are you considering buying something else instead of this exact item?')
+    .setChoiceValues([
+      'Yes — another item on my wishlist (same app)',
+      'Yes — something on a different app or store',
+      'No — it is this item or nothing',
+      "Haven't seriously compared alternatives"
+    ])
     .setRequired(true);
 
-  q1.setChoices([
-    q1.createChoice('Weekly', sQ2),
-    q1.createChoice('2-4 times a month', sQ2),
-    q1.createChoice('Once a month', sQ2),
-    q1.createChoice('Rarely', sExit)
+  // --- Outside the app ---
+  form.addPageBreakItem()
+    .setTitle('Outside the app')
+    .setHelpText('Same item.');
+
+  form.addCheckboxItem()
+    .setTitle(
+      'Have you done anything outside the shopping app while deciding on this item? ' +
+      '(Select all that apply)'
+    )
+    .setChoiceValues([
+      'Searched reviews on Google or YouTube',
+      'Asked a friend or family member',
+      'Checked Instagram or influencers for styling / real photos',
+      'Compared prices on other sites',
+      'Visited a physical store to check fit or quality',
+      'Nothing — I have only looked at it inside the app'
+    ])
+    .showOtherOption(true)
+    .setRequired(true);
+
+  form.addParagraphTextItem()
+    .setTitle('How do you currently deal with the uncertainty, if at all?')
+    .setHelpText(
+      'e.g. would order two sizes and return one; wait for payday; ask a friend on WhatsApp; ' +
+      'just leave it in the wishlist'
+    )
+    .setRequired(true);
+
+  // --- MVP probe ---
+  form.addPageBreakItem()
+    .setTitle('Fit & Confidence Assistant (concept)')
+    .setHelpText(
+      'Imagine an in-app layer on the wishlist: review-backed answers on fit, quality ' +
+      '(fabric/threadwork vs photo), occasion-fit, and comparing 2–3 saved items. No discounts.'
+    );
+
+  form.addMultipleChoiceItem()
+    .setTitle(
+      'If this assistant were on your wishlist for this item, would it help you decide ' +
+      'yes or no faster?'
+    )
+    .setChoiceValues([
+      'Yes — I could decide sooner (buy or drop it)',
+      'Maybe — I would still need to try it on or see it in person',
+      'No — price or something else is the real blocker'
+    ])
+    .setRequired(true);
+
+  form.addParagraphTextItem()
+    .setTitle('What would you ask the assistant about this item? (optional)')
+    .setHelpText('e.g. Will embroidery look cheap? Should I size up? Good for a daytime wedding?')
+    .setRequired(false);
+
+  // --- Optional live interview ---
+  form.addPageBreakItem().setTitle('Optional follow-up');
+
+  var qFollow = form.addMultipleChoiceItem()
+    .setTitle(
+      'Open to a 15–20 min follow-up chat about this saved item? (Casual, no sales pitch.)'
+    )
+    .setRequired(true);
+
+  var sContact = form.addPageBreakItem().setTitle('Contact');
+
+  form.addTextItem()
+    .setTitle('Email or phone (only if you said yes above)')
+    .setRequired(false);
+
+  qFreq.setChoices([
+    qFreq.createChoice('Weekly', sUnsold),
+    qFreq.createChoice('2–4 times a month', sUnsold),
+    qFreq.createChoice('Once a month', sUnsold),
+    qFreq.createChoice('Rarely', sExit)
   ]);
 
-  q2.setChoices([
-    q2.createChoice('Less than 5', sExit),
-    q2.createChoice('5-10', sExit),
-    q2.createChoice('10+', sQ3)
+  qUnsold.setChoices([
+    qUnsold.createChoice('Yes — I have at least one unsold saved item', sAbout),
+    qUnsold.createChoice('No — everything I saved, I already bought or deleted', sExit)
   ]);
 
-  q3.setChoices([
-    q3.createChoice('Yes', sMain),
-    q3.createChoice('No', sExit)
+  qFollow.setChoices([
+    qFollow.createChoice('Yes — happy to chat', sContact),
+    qFollow.createChoice('No thanks', FormApp.PageNavigationType.SUBMIT)
   ]);
-
-  q15.setChoices([
-    q15.createChoice('Yes — please share your email/phone', sContact),
-    q15.createChoice('No thanks', FormApp.PageNavigationType.SUBMIT)
-  ]);
-
-  Logger.log('Live form: ' + form.getPublishedUrl());
-  Logger.log('Edit form: ' + form.getEditUrl());
 }

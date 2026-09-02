@@ -29,7 +29,10 @@ from mvp import (
     llm_compare_products,
     load_catalog,
     resolve_question,
+    size_in_hub,
+    sku_express_ready,
 )
+from mvp.express import extract_pincodes, hub_for_pin, load_express_hubs, stock_caption
 
 st.set_page_config(
     page_title="Myntra Wishlist — Discovery + Confidence Assistant",
@@ -708,6 +711,44 @@ with tab2:
           font-size:11px; font-weight:700; padding:2px 8px; border-radius:10px;
           margin-left:6px; vertical-align: middle;
         }
+        .express-panel {
+          border: 2px solid #FF3F6C;
+          background: #fff5f8;
+          border-radius: 12px;
+          padding: 14px 14px 6px;
+          margin: 0.75rem 0 0.25rem;
+          box-shadow: 0 6px 20px rgba(255, 63, 108, 0.28);
+        }
+        .express-kicker {
+          color: #FF3F6C;
+          font-size: 0.72rem;
+          font-weight: 800;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          margin: 0 0 0.2rem;
+        }
+        .express-title {
+          color: #282c3f;
+          font-size: 1.05rem;
+          font-weight: 800;
+          line-height: 1.3;
+          margin: 0 0 0.65rem;
+        }
+        .express-avail {
+          background: #FF3F6C;
+          color: #fff;
+          font-weight: 700;
+          font-size: 0.82rem;
+          line-height: 1.35;
+          padding: 8px 10px;
+          border-radius: 8px;
+          margin: 0.45rem 0 0.2rem;
+        }
+        div[data-testid="stVerticalBlockBorderWrapper"]:has(.express-kicker) {
+          border: 2px solid #FF3F6C !important;
+          background: #fff5f8 !important;
+          box-shadow: 0 6px 20px rgba(255, 63, 108, 0.28) !important;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -723,6 +764,10 @@ with tab2:
         st.session_state.wl_filter = "All"
     if "mvp_compare_answer" not in st.session_state:
         st.session_state.mvp_compare_answer = None
+    if "bag_express" not in st.session_state:
+        st.session_state.bag_express = []
+
+    express_hubs = load_express_hubs()
 
     def _render_shopper_answer(answer: dict, product_id: str) -> None:
         body = (answer.get("answer") or answer.get("bottom_line") or "").strip()
@@ -753,12 +798,6 @@ with tab2:
             for bullet in bullets:
                 st.markdown(f"- {bullet}")
 
-        steps = answer.get("steps") or []
-        if steps and st.session_state.get("show_agent_steps"):
-            with st.expander("Agent steps (presenter view)"):
-                for step in steps:
-                    st.markdown(f"- {step}")
-
         b1, b2 = st.columns(2)
         with b1:
             if st.button("Add to bag", key=f"ans_bag_{product_id}", use_container_width=True):
@@ -784,6 +823,16 @@ with tab2:
 
     with wl_col:
         st.subheader("Wishlist")
+        pin_raw = st.session_state.get("pincode") or ""
+        pins = extract_pincodes(pin_raw)
+        hub = hub_for_pin(pin_raw, express_hubs)
+        last_pin = st.session_state.get("_express_pin_checked", "")
+        if pin_raw != last_pin:
+            st.session_state["_express_pin_checked"] = pin_raw
+            for key in list(st.session_state.keys()):
+                if str(key).startswith("express_prompt_"):
+                    del st.session_state[key]
+
         filter_choice = st.pills(
             "Filter",
             options=["All", "Ethnic Wear", "In stock"],
@@ -852,6 +901,81 @@ with tab2:
                                 if p["id"] not in st.session_state.bag:
                                     st.session_state.bag.append(p["id"])
                                 st.toast(f"Added: {p.get('short_name')}")
+                        prompt_key = f"express_prompt_{p['id']}"
+                        pin_serves = bool(hub and sku_express_ready(p))
+                        show_express = bool(
+                            pin_serves
+                            and st.session_state.get(prompt_key) != "dismissed"
+                        )
+                        if pin_serves:
+                            st.markdown(
+                                "<div class='express-avail'>"
+                                "This product is available for 30 min delivery "
+                                "in your area</div>",
+                                unsafe_allow_html=True,
+                            )
+                            st.caption(stock_caption(p))
+                        if show_express:
+                            if p["id"] in st.session_state.bag_express:
+                                st.caption("In bag as Express 30 min.")
+                            elif st.session_state.get(prompt_key) == "open":
+                                usual_focus = st.session_state.get(f"sz_{p['id']}") or ""
+                                size_opts = ["", "S", "M", "L", "XL", "UK 6"]
+                                sz_key = f"express_sz_{p['id']}"
+                                if sz_key not in st.session_state:
+                                    st.session_state[sz_key] = (
+                                        usual_focus if usual_focus in size_opts else ""
+                                    )
+                                pick = st.selectbox(
+                                    "Size for 30-min hub",
+                                    size_opts,
+                                    key=sz_key,
+                                )
+                                if pick:
+                                    st.caption(stock_caption(p, pick))
+                                if st.button(
+                                    "Get it in 30 mins",
+                                    key=f"express_go_{p['id']}",
+                                    use_container_width=True,
+                                    disabled=not in_stock,
+                                ):
+                                    if not pick:
+                                        st.warning("Pick a size first.")
+                                    elif not size_in_hub(p, pick):
+                                        st.warning(
+                                            "30-min is on for this pin, but your size "
+                                            "isn’t in the hub — standard delivery "
+                                            "still applies."
+                                        )
+                                    else:
+                                        if p["id"] not in st.session_state.bag:
+                                            st.session_state.bag.append(p["id"])
+                                        if p["id"] not in st.session_state.bag_express:
+                                            st.session_state.bag_express.append(p["id"])
+                                        st.session_state[prompt_key] = "open"
+                                        st.toast(
+                                            f"Express 30 min: {p.get('short_name')} "
+                                            f"({pick}) from {hub.get('hub')}"
+                                        )
+                                        st.rerun()
+                            else:
+                                y, n = st.columns(2)
+                                with y:
+                                    if st.button(
+                                        "Yes",
+                                        key=f"express_yes_{p['id']}",
+                                        use_container_width=True,
+                                    ):
+                                        st.session_state[prompt_key] = "open"
+                                        st.rerun()
+                                with n:
+                                    if st.button(
+                                        "Not now",
+                                        key=f"express_no_{p['id']}",
+                                        use_container_width=True,
+                                    ):
+                                        st.session_state[prompt_key] = "dismissed"
+                                        st.rerun()
                         st.markdown("</div>", unsafe_allow_html=True)
 
     with fit_col:
@@ -938,13 +1062,47 @@ with tab2:
                 st.dataframe(rows, hide_index=True, use_container_width=True)
 
         if st.session_state.bag:
-            st.caption("Bag: " + ", ".join(st.session_state.bag))
+            names = []
+            for pid in st.session_state.bag:
+                tag = " · Express 30 min" if pid in st.session_state.bag_express else ""
+                names.append(f"{pid}{tag}")
+            st.caption("Bag: " + ", ".join(names))
 
-        st.divider()
-        st.checkbox(
-            "Presenter view — show agent steps",
-            key="show_agent_steps",
-            help="Reveals the router/writer trace under each answer. Off for shoppers.",
-        )
+        with st.container(border=True):
+            st.markdown(
+                "<p class='express-kicker'>Express</p>"
+                "<p class='express-title'>Want your delivery in 30 mins?</p>",
+                unsafe_allow_html=True,
+            )
+            with st.form("express_pin_form", border=False):
+                pin_col, check_col = st.columns([3.2, 1])
+                with pin_col:
+                    pin_raw = st.text_input(
+                        "Let us know your pincode",
+                        placeholder="e.g. 560001",
+                        help="Enter a 6-digit pincode, then tap Check.",
+                        key="pincode",
+                    )
+                with check_col:
+                    st.markdown(
+                        "<div style='height:1.85rem'></div>", unsafe_allow_html=True
+                    )
+                    st.form_submit_button(
+                        "Check", type="primary", use_container_width=True
+                    )
+            pins = extract_pincodes(pin_raw)
+            hub = hub_for_pin(pin_raw, express_hubs)
+            if not (pin_raw or "").strip():
+                st.caption("Enter your pincode and tap Check.")
+            elif not pins:
+                st.caption("Enter a full 6-digit pincode (you can add more than one).")
+            elif not hub:
+                st.caption("30-min isn’t in this area yet — try another pin.")
+            else:
+                st.markdown(
+                    "<div class='express-avail'>"
+                    "30-min delivery is available in your area</div>",
+                    unsafe_allow_html=True,
+                )
 
 

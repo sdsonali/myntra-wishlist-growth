@@ -93,10 +93,10 @@
   },
   "headline": "Quality Doubt appears in 44.7% of purchase-blocker mentions, more than price change (23.8%) or fit uncertainty (20.3%) - making it the single largest addressable blocker in this corpus.",
   "survey_overlay": {
-    "n": 10,
+    "n": 6,
     "pct_external_research": 100.0,
     "corpus_pct_external_research": 10.8,
-    "caption": "Public reviews mention leaving the app in 10.8%; survey respondents (n=10) almost all did. These are two evidence layers, not one combined rate."
+    "caption": "Public reviews mention leaving the app in 10.8%; survey respondents (n=6) almost all did. These are two evidence layers, not one combined rate."
   },
   "by_source": {
     "play_store": {
