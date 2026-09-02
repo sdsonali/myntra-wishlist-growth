@@ -734,11 +734,15 @@ with tab2:
           line-height: 1.3;
           margin: 0 0 0.25rem;
         }
-        .express-sub {
-          color: #535766;
-          font-size: 0.88rem;
-          font-weight: 600;
+        .express-highlight {
+          display: inline-block;
+          background: #FFE566;
+          color: #282c3f;
+          font-weight: 800;
+          font-size: 0.95rem;
           line-height: 1.35;
+          padding: 4px 8px;
+          border-radius: 4px;
           margin: 0 0 0.65rem;
         }
         .express-avail {
@@ -917,14 +921,14 @@ with tab2:
                         if pin_serves:
                             st.markdown(
                                 "<div class='express-avail'>"
-                                "Try it in 30. Swap it today — 30-min delivery "
-                                "+ same-day exchange in your area</div>",
+                                "Get your delivery in 30mins. "
+                                "Don't like it? Exchange it the same day.</div>",
                                 unsafe_allow_html=True,
                             )
                             st.caption(stock_caption(p))
                         if show_express:
                             if p["id"] in st.session_state.bag_express:
-                                st.caption("In bag as Express — try in 30, swap today.")
+                                st.caption("In bag as Express — 30mins, same-day exchange.")
                             elif st.session_state.get(prompt_key) == "open":
                                 usual_focus = st.session_state.get(f"sz_{p['id']}") or ""
                                 size_opts = ["", "S", "M", "L", "XL", "UK 6"]
@@ -941,7 +945,7 @@ with tab2:
                                 if pick:
                                     st.caption(stock_caption(p, pick))
                                 if st.button(
-                                    "Get it in 30 — swap today if needed",
+                                    "Get it in 30mins",
                                     key=f"express_go_{p['id']}",
                                     use_container_width=True,
                                     disabled=not in_stock,
@@ -961,7 +965,7 @@ with tab2:
                                             st.session_state.bag_express.append(p["id"])
                                         st.session_state[prompt_key] = "open"
                                         st.toast(
-                                            f"Try it in 30, swap today: "
+                                            f"Express 30mins + same-day exchange: "
                                             f"{p.get('short_name')} ({pick}) "
                                             f"from {hub.get('hub')}"
                                         )
@@ -1073,7 +1077,7 @@ with tab2:
             names = []
             for pid in st.session_state.bag:
                 tag = (
-                    " · Express: try in 30, swap today"
+                    " · Express 30mins, same-day exchange"
                     if pid in st.session_state.bag_express
                     else ""
                 )
@@ -1082,9 +1086,11 @@ with tab2:
 
         with st.container(border=True):
             st.markdown("<p class='express-kicker'>Express</p>", unsafe_allow_html=True)
-            st.markdown("### Try it in 30. Swap it today.")
-            st.caption(
-                "Doorstep in 30 mins. If the size isn’t right, exchange it the same day."
+            st.markdown("**Get your delivery in 30mins.**")
+            st.markdown(
+                "<span class='express-highlight'>"
+                "Don't like it? Exchange it the same day.</span>",
+                unsafe_allow_html=True,
             )
             with st.form("express_pin_form", border=False):
                 pin_col, check_col = st.columns([3.2, 1])
@@ -1113,7 +1119,8 @@ with tab2:
             else:
                 st.markdown(
                     "<div class='express-avail'>"
-                    "30-min delivery + same-day exchange is on in your area"
+                    "Get your delivery in 30mins. "
+                    "Don't like it? Exchange it the same day."
                     "</div>",
                     unsafe_allow_html=True,
                 )
